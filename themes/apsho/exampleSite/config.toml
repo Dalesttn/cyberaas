@@ -1,5 +1,5 @@
 # MAIN base
-baseURL = "https://apsho-hugo.netlify.app/"
+baseURL = "http://localhost:1313/"
 languageCode = "en-us"
 title = "Apsho | App landing template"
 theme = "apsho"
