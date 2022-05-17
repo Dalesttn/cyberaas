@@ -1,7 +1,7 @@
 # MAIN base
 baseURL = "https://boisterous-panda-9784ee.netlify.app/"
 languageCode = "en-us"
-title = "Apsho | App landing template"
+title = "Cyberaas | Managed Detection & Remediation Service"
 theme = "apsho"
 
 # Navigation Bar
