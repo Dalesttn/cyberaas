@@ -1,0 +1,27 @@
+.call-to-action {
+        background: url("/call-to-action.png"); 
+        background-position: 20%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding:8% 0;
+
+        h1 {
+            font-size:48px;
+        }
+
+        h3 {
+            color:#fff;
+            font-size:32px;
+        }
+}
+
+.btn-call {
+    font-weight:600;
+    font-size:24px;
+    padding: 10px 65px;
+
+    &:hover {
+      background-color:#DA2E8A;
+      color:#fff;  
+    }
+}

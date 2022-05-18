@@ -7,7 +7,13 @@ body {
   background: $body-color;
 }
 
-h1,
+h1 {
+  font-family: $primary-font-bold;
+  color: #233059;
+  font-weight: 700;
+  //letter-spacing: 0.5px;
+}
+
 h2,
 h3,
 h4,
@@ -20,19 +26,21 @@ h6 {
 }
 
 p {
-  font-size: 16px;
+  font-size: 20px;
   color: $text-color;
   line-height: 26px;
 }
 
 h1 {
   font-size: 50px;
-  line-height: 70px;
+  line-height: 60px;
 }
 
 h2 {
+  font-family: $primary-font-bold;
   font-size: 40px;
   line-height: 55px;
+  letter-spacing: 0;
 }
 
 h3 {

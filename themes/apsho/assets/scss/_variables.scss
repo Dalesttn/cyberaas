@@ -1,3 +1,13 @@
+@font-face {
+    font-family: 'grandview';
+    src: url(/fonts/Grandview.ttf); 
+}
+
+@font-face {
+    font-family: 'grandview bold';
+    src: url(/fonts/GrandviewBold.ttf); 
+}
+
 //site color variables
 $body-color: #FFF;
 $bg-color:#F1F2F2;
@@ -14,4 +24,5 @@ $white: #fff;
 $black: #000;
 
 // Font Variables
-$primary-font: 'Poppins',sans-serif;
+$primary-font: 'grandview';
+$primary-font-bold: 'grandview bold';

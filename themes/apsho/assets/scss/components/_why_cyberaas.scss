@@ -1,0 +1,37 @@
+.why-cyberaas {
+    background: url("/why-cyberaas.png"); 
+    background-position: 20%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 50px 0;
+}
+
+.whyCyber-content {
+    h1 {
+        color:#fff;
+        margin-bottom: 25px;
+        @include tablet {
+          font-size: 40px;
+          line-height: 52px;
+        }
+      }
+  
+      p {
+        color:#fff;
+        font-size: 17px;
+        line-height: 37px;
+        font-weight: 400;
+        margin-bottom: 40px;
+        @include mobile {
+          font-size: 16px;
+          line-height: 28px;
+        }
+      }
+      span {
+        font-size: 19px;
+        color:#fff;
+        font-weight:500;
+        padding-bottom:15px;
+      }
+  
+}

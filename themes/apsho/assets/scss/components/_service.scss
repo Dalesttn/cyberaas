@@ -1,55 +1,83 @@
 .service {
   padding: 60px 0 80px;
 
+  .one {
+    background: url("/purple-rectangle.png"); 
+    background-position: 20%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    z-index:1;
+    height:400px;
+  }
+  .two {
+    background: url("/pink-rectangle.png"); 
+    background-position: 20%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    z-index:1;
+    height:400px;
+  }
+  .three {
+    background: url("/blue-rectangle.png"); 
+    background-position: 20%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    z-index:1;
+    height:400px;
+  }
+  .four {
+    background: url("/green-rectangle.png"); 
+    background-position: 20%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    z-index:1;
+    height:400px;
+  }
+
+
+
   @include mobile-xs {
     padding-bottom: 0;
   }
   .col-md-6 {
-    &:nth-child(3n - 2) {
+
+    &:nth-child(2) {
       .service-item {
         .service-icon {
-          svg {
-            path {
-              &:first-child {
-                fill: #ffecee;
-              }
-            }
-          }
+
         }
         &::after {
-          background: rgb(255, 187, 193);
+          background: #622F89;
         }
       }
     }
-    &:nth-child(3n - 1) {
+    &:nth-child(3) {
       .service-item {
         .service-icon {
-          svg {
-            path {
-              &:first-child {
-                fill: #e8f1ff;
-              }
-            }
-          }
+
         }
         &::after {
-          background: rgb(143, 186, 255);
+          background: #DA2E8A;
         }
       }
     }
-    &:nth-child(3n) {
+    &:nth-child(4) {
       .service-item {
         .service-icon {
-          svg {
-            path {
-              &:first-child {
-                fill: #fff7d8;
-              }
-            }
-          }
+
         }
         &::after {
-          background: rgb(254, 231, 140);
+          background: #00AAE9;
+        }
+      }
+    }
+    &:nth-child(5) {
+      .service-item {
+        .service-icon {
+
+        }
+        &::after {
+          background: #4FA1AD;
         }
       }
     }
@@ -65,6 +93,7 @@
     padding: 25px 20px 40px;
     transition: transform 0.3s $site-ease;
     overflow: hidden;
+    margin: 0 31px;
 
     &::after {
       position: absolute;
@@ -132,4 +161,29 @@
       margin-bottom: 0;
     }
   }
+}
+
+.services {
+  padding:50px 0;
+}
+
+.btn-service {
+  background-color:#622F89;
+  color:#fff;
+  font-weight:800;
+}
+
+.service-description {
+  padding: 50px 15%;
+  color:#000;
+  text-align:center;
+  font-weight:500;
+}
+
+.service-container {
+  padding-top:24px;
+}
+
+.service-icon {
+  text-align: center;
 }

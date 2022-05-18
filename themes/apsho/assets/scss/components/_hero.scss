@@ -2,7 +2,10 @@
   position: relative;
   padding: 150px 0 100px;
   overflow: hidden;
-  background-color: #EEEEEE;
+  background: url("/hero-background.png"); 
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
   @include desktop {
     text-align: center;
   }
@@ -117,4 +120,32 @@
       }
     }
   }
+}
+
+.hero-form-action {
+    border-radius: 10px;
+    box-shadow: 0px 5px 25px rgba(25, 24, 29, 0.1);
+    padding: 50px 30px;
+    margin-top: 0px;
+    background: $white;
+
+    h2 {
+      text-align:center;
+    }
+    
+
+}
+
+.btn-primary-filled {
+  color: #fff;
+  background-color: #623a96;
+  font-weight: 500;
+  font-size: 14px;
+  font-family: grandview;
+  text-transform: uppercase;
+  width: 100%;
+}
+
+.align-items-center {
+  justify-content: space-between;
 }

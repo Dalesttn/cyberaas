@@ -13,6 +13,10 @@
   }
 
   &-content {
+    padding-right: 20%;
+    @include mobile {
+      padding-right: 0;
+    }
     @include desktop {
       text-align: center;
       margin-bottom: 30px;
@@ -32,8 +36,11 @@
     }
 
     p {
+      color:#622F89;
+      font-weight:600;
       @include mobile {
         font-size: 14px;
+       
       }
     }
   }
@@ -67,6 +74,7 @@
       p {
         font-size: 14px;
         color: $text-color-dark;
+        font-weight:600;
       }
     }
 
@@ -91,6 +99,7 @@
           font-size: 13px;
           font-weight: 500;
           margin: 0;
+          color:#28AAE0;
         }
 
         p {

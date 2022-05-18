@@ -42,7 +42,9 @@ theme = "apsho"
 
 # Footer Address
 [params.address]
-address = "23 Khan Niketon, Grand Street, NYK."
+address1 = "7 Temasek Boulevard"
+address2 = "#12-07 Suntec Tower One"
+address3 = " Singapore 038987"
 email = "apsho@example.com"
 phone = "+(448) 833 5272 332"
 
@@ -62,7 +64,7 @@ googleAnalytics = "UA-175025671-2"
 # Footer
 footerTitle = "Get the latest app updates"
 copyright1 = "All right reserved"
-copyright2 = "Copyright © Apsho {year}"
+copyright2 = "Copyright © Cyberaas {year}"
 
 #contact
 email = "help@staticmania.com"
