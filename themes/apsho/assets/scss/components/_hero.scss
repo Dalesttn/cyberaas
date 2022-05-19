@@ -11,9 +11,11 @@
   }
   @include tablet {
     padding: 120px 0 80px;
+    background-position: 90%;
   }
   @include mobile {
     padding: 100px 0 50px;
+    background-position: 90%;
   }
   &-shape {
     position: absolute;
@@ -148,4 +150,27 @@
 
 .align-items-center {
   justify-content: space-between;
+}
+
+
+.h-form {
+  @include mobile {
+    padding-top:25px;
+    margin: 0 15px;
+  }
+  @include tablet {
+    padding-top:25px;
+    margin: 0 15px;
+  }
+}
+
+.h-content {
+  @include mobile {
+    padding-top:25px;
+    margin: 0 15px;
+  }
+  @include tablet {
+    padding-top:25px;
+    margin: 0 15px;
+  }
 }

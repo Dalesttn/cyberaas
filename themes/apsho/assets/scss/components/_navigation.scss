@@ -1,5 +1,5 @@
 .main-nav {
-  padding: 30px 35px 20px;
+  padding: 20px 35px 20px;
   transition: all 0.5s ease-in-out;
   position: fixed;
   z-index: 99;
@@ -43,7 +43,7 @@
 
   .navbar-brand {
     img {
-      width: 200px;
+      width: 232px;
       @include mobile {
         width: 120px;
       }
