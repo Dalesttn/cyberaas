@@ -1,0 +1,39 @@
+<div class="container">
+  <div class="row align-items-center">
+    <div class="col-lg-6 order-1 service-title">
+      <h2>{{ .Title }}</h2>
+    </div>
+  </div>
+  <div class="row align-items-center">
+    <div class="col-lg-8 order-1 order-lg-1 h-content single-service">
+      <img src="{{ .Params.featureImage | absURL }}" alt="blog-thumb" />
+    </div>
+    <div class="col-lg-4 order-1 order-lg-1">
+      <div class="info-box">
+        <div class="info-card info">
+          <h5>Recommended for:</h5>
+          <p>{{ .Params.Recommended }}</p>
+          <h5>Implementation time:</h5>
+          <p>{{ .Params.Implementation }}</p>
+          <h5>Investment required:</h5>
+          <p>{{ .Params.Investment }}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="row align-items-center">
+    <div class="service-info">{{ .Content }}</div>
+  </div>
+  <div class="row service-contact">
+    <div class="col-lg-4 order-1 order-lg-1 h-content">
+      <a id="service-form-button" class="btn btn-primary-fill" href="/contact">
+        Contact us
+      </a>
+    </div>
+  </div>
+  <div class="row service-contact">
+    <div class="col-lg-6 order-1 order-lg-1 h-content back-service">
+      <a href="/services">Back to Services page</a>
+    </div>
+  </div>
+</div>

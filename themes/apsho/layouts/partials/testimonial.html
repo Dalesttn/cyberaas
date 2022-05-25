@@ -21,7 +21,7 @@
                   <p>{{ .text }}</p>
                   <div class="testimonial-slider-person">
                     <div class="thumb">
-                      <img src={{ .image }} alt="person-thumb" />
+                      <img src={{ $.Site.BaseURL }}{{ .image }} alt="person-thumb" />
                     </div>
                     <div class="content">
                       <h3> {{ .name }} </h3>

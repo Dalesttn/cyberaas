@@ -1,0 +1,17 @@
+<div class="card {{ .Params.color }}">
+  <a href="{{ .Permalink }}">
+    <div>
+      <div class="service-container">
+        <div class="service-item">
+          <div class="service-image">
+            <img src="{{ .Params.featureImage | absURL }}" alt="blog-thumb" />
+          </div>
+          <div class="service-content">
+            <h4><a href="{{ .Permalink }}">{{ .Title }}</a></h4>
+            <p>{{ .Summary }}</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </a>
+</div>

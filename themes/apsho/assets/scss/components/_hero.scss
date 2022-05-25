@@ -6,6 +6,11 @@
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: cover;
+
+  p {
+    color:#000;
+    font-weight:600;
+}
   @include desktop {
     text-align: center;
   }
@@ -60,7 +65,7 @@
     p {
       font-size: 17px;
       line-height: 37px;
-      font-weight: 400;
+      font-weight: 600;
       margin-bottom: 40px;
       @include mobile {
         font-size: 16px;

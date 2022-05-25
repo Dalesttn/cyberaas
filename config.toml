@@ -4,23 +4,31 @@ languageCode = "en-us"
 title = "Cyberaas | Managed Detection & Remediation Service"
 theme = "apsho"
 
+[taxonomies]
+    tag = "tags"
+    category = "categories"
+
 # Navigation Bar
 [[menu.main]]
     name = "Home"
-    url = "#hero"
+    url = ""
     weight = 1
 [[menu.main]]
-    name = "About"
-    url = "#feature"
+    name = "Our Services"
+    url = "services"
     weight = 2
 [[menu.main]]
-    name = "Services"
-    url = "#faq"
+    name = "About Us"
+    url = "#feature"
     weight = 3
 [[menu.main]]
     name = "Blog"
     url = "#blog"
     weight = 4
+[[menu.main]]
+    name = "Contact Us"
+    url = "#blog"
+    weight = 45
 
 # Footer Sitemap
 [[menu.sitemap]]
@@ -45,7 +53,7 @@ theme = "apsho"
 address1 = "7 Temasek Boulevard"
 address2 = "#12-07 Suntec Tower One"
 address3 = " Singapore 038987"
-email = "apsho@example.com"
+email = "info@cyberaas.com"
 phone = "+(448) 833 5272 332"
 
 # Footer Social

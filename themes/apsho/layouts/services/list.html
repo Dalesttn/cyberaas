@@ -1,0 +1,159 @@
+{{ define "main" }}
+
+{{ partial "banner.html" . }}
+<div class="container">
+  <section class="service" id="compliance">
+      <div class="container">
+        <div class="row justify-content-center services">
+          <div class="">
+          <button class="btn-sm btn-service" type="submit">
+            <span class="btn-area">
+              Our Services
+            </span>
+          </button>
+          </div>
+      </div>
+      <div class="row justify-content-center" >
+        <div class="col-lg-12">
+          <div class="section-title">
+            <h2>
+              Compliance
+            </h2>
+          </div>
+          <div class="service-description">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce eget gravida tellus. Proin in quam eu enim blandit fermentum finibus nec massa. Quisque vehicula mi nec neque consectetur, ut interdum massa auctor.
+          </div>
+        </div>
+        </div>
+  </section>
+  <div class="row justify-content-center services">
+      <div class="col-lg-12">
+        <div class="box-3">
+              {{ $p := .Pages }}
+              {{ $p = where $p "Params.categories" "intersect" (slice "Compliance") }}
+              {{ range $p  }}
+              {{ partial "our-services.html" . }}
+              {{ end }}
+          </div>
+      </div>
+  </div>
+
+  <section class="service" id="standards">
+      <div class="container">
+        <div class="row justify-content-center services">
+          <div class="">
+          <button class="btn-sm btn-service-pink" type="submit">
+            <span class="btn-area">
+              Our Services
+            </span>
+          </button>
+          </div>
+      </div>
+      <div class="row justify-content-center">
+        <div class="col-lg-12">
+          <div class="section-title">
+            <h2>
+              Standards
+            </h2>
+          </div>
+          <div class="service-description">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce eget gravida tellus. Proin in quam eu enim blandit fermentum finibus nec massa. Quisque vehicula mi nec neque consectetur, ut interdum massa auctor.
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <div class="row justify-content-center services">
+      <div class="col-lg-12">
+        <div class="box-2">
+              {{ $p := .Pages }}
+              {{ $p = where $p "Params.categories" "intersect" (slice "Standards") }}
+              {{ range $p  }}
+              {{ partial "our-services.html" . }}
+              {{ end }}
+          </div>
+      </div>
+  </div>
+
+  <section class="service" id="services">
+      <div class="container">
+        <div class="row justify-content-center services">
+          <div class="">
+          <button class="btn-sm btn-service-blue" type="submit">
+            <span class="btn-area">
+              Our Services
+            </span>
+          </button>
+          </div>
+      </div>
+      <div class="row justify-content-center">
+        <div class="col-lg-12">
+          <div class="section-title">
+            <h2>
+              Services
+            </h2>
+          </div>
+          <div class="service-description">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce eget gravida tellus. Proin in quam eu enim blandit fermentum finibus nec massa. Quisque vehicula mi nec neque consectetur, ut interdum massa auctor.
+          </div>
+        </div>
+        </div>
+      </div>
+  </section>
+  <div class="row justify-content-center services">
+      <div class="col-lg-12">
+        <div class="box-3">
+              {{ $p := .Pages }}
+              {{ $p = where $p "Params.categories" "intersect" (slice "Services") }}
+              {{ range $p  }}
+              {{ partial "our-services.html" . }}
+              {{ end }}
+          </div>
+      </div>
+  </div>
+
+  <section class="service" id="transformation">
+      <div class="container">
+        <div class="row justify-content-center services">
+          <div class="">
+          <button class="btn-sm btn-service-green" type="submit">
+            <span class="btn-area">
+              Our Services
+            </span>
+          </button>
+          </div>
+      </div>
+      <div class="row justify-content-center">
+        <div class="col-lg-12">
+          <div class="section-title">
+            <h2>
+              Transformation
+            </h2>
+          </div>
+          <div class="service-description">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce eget gravida tellus. Proin in quam eu enim blandit fermentum finibus nec massa. Quisque vehicula mi nec neque consectetur, ut interdum massa auctor.
+          </div>
+        </div>
+        </div>
+      </div>
+  </section>
+  <div class="row justify-content-center services">
+      <div class="col-lg-12">
+        <div class="box-3">
+              {{ $p := .Pages }}
+              {{ $p = where $p "Params.categories" "intersect" (slice "Transformation") }}
+              {{ range $p  }}
+              {{ partial "our-services.html" . }}
+              {{ end }}
+          </div>
+      </div>
+  </div>
+</div>
+
+{{ partial "why-cyberaas.html" . }}
+
+{{ partial "testimonial.html" . }}
+
+{{ partial "call-to-action.html" . }}
+
+{{ end }}
