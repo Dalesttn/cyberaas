@@ -1,83 +1,98 @@
-{{ define "main" }}
+{{ define "main" }} {{ partial "banner_none.html" . }} {{ partial
+"contact-info.html" . }} {{ "<!--contactHeader.html-->" | safeHTML }}
+<section class="page-header">
 
-{{ "<!--contactHeader.html-->" | safeHTML }}
-  <section class="page-header">
-    <div class="container">
-      <div class="row">
-        <div class="col-12">
-          <h2>{{ .Title }}</h2>
-          <p>
-            Don't like forms send us an
-            <a href="mailto:{{ .Site.Params.email }}">email</a>
-          </p>
-        </div>
-      </div>
+    <div class="row">
+      <div id="googlemap"></div>
     </div>
-  </section>
-  
+
+</section>
 
 {{ "<!--contactForm.html-->" | safeHTML }}
-  <section class="contact">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-8 mx-auto">
-          <form id="contact-form" action="{{ .Site.Params.formspreeURL }}" method="POST" class="contact-form row">
-            <div class="col-lg-6">
-              <input
-                type="text"
-                class="form-control"
-                placeholder="Full Name"
-                name="Name"
-                required
-              />
-            </div>
-            <div class="col-lg-6">
-              <input
-                type="email"
-                class="form-control"
-                placeholder="Email"
-                name="email"
-                required
-              />
-            </div>
-            <div class="col-12">
-              <input type="text" class="form-control" placeholder="Subject" name="subject" />
-            </div>
-            <div class="col-12">
-              <textarea
-                class="form-control"
-                placeholder="Message"
-                required
-                cols="30"
-                rows="7"
-                name="message"
-              ></textarea>
-            </div>
-            <div class="col-6 align-self-center">
-              <div class="form-check">
-                <input
-                  class="form-check-input"
-                  type="checkbox"
-                  id="termCondition"
-                  name="terms"
-                  required
-                />
-                <label class="form-check-label" for="termCondition">
-                  Accept <a href="#">terms and conditions</a>
-                </label>
-              </div>
-            </div>
-            <div class="col-6 text-right">
-              <button id="contact-form-button" class="btn btn-primary-filled" type="submit">
-                Submit
-              </button>
-            </div>
-            <div class="col-12">
-              <p id="contact-form-status" class="mt-3"></p>
-            </div>
-          </form>
+<section class="contact">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 mx-auto">
+        <form
+          id="contact-form"
+          action="{{ .Site.Params.formspreeURL }}"
+          method="POST"
+          class="contact-form row"
+        >
+        <div class="col-lg-12 mx-auto text-center" style="padding-bottom:50px;">
+          <h2>Send us a message</h2>
         </div>
+          <div class="col-lg-6">
+            <input
+              type="text"
+              class="form-control"
+              placeholder="Full Name"
+              name="Name"
+              required
+            />
+          </div>
+          <div class="col-lg-6">
+            <input
+              type="email"
+              class="form-control"
+              placeholder="Email"
+              name="email"
+              required
+            />
+          </div>
+          <div class="col-lg-6">
+            <input
+              type="text"
+              class="form-control"
+              placeholder="Work phone number"
+              name="work-phone"
+              required
+            />
+          </div>
+          <div class="col-lg-6">
+            <input
+              type="text"
+              class="form-control"
+              placeholder="Business Name"
+              name="business"
+              required
+            />
+          </div>
+          <div class="col-12">
+            <input
+              type="text"
+              class="form-control"
+              placeholder="Business Website"
+              name="website"
+            />
+          </div>
+          <div class="col-12">
+            <textarea
+              class="form-control"
+              placeholder="Message"
+              required
+              cols="30"
+              rows="7"
+              name="message"
+            ></textarea>
+          </div>
+          <div class="col-3"></div>
+          <div class="col-6 justify-content-center" >
+            <button 
+              id="contact-form-button"
+              class="btn btn-primary-filled"
+              type="submit"
+            >
+              Submit
+            </button>
+          </div>
+          <div class="col-3"></div>
+          <div class="col-12">
+            <p id="contact-form-status" class="mt-3"></p>
+          </div>
+        </form>
       </div>
     </div>
-  </section>
+  </div>
+</section>
 {{ end }}

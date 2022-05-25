@@ -1,6 +1,6 @@
 @import "variables";
 
-@import 'plugins/bootstrap.min';
+@import "plugins/bootstrap.min";
 
 @import "typography";
 
@@ -19,5 +19,7 @@
 @import "components/hero";
 
 @import "components/banner";
+
+@import "components/contact_info";
 
 @import "components/video";
