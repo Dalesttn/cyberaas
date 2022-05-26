@@ -19,7 +19,7 @@ theme = "apsho"
     weight = 2
 [[menu.main]]
     name = "About Us"
-    url = "#feature"
+    url = "about"
     weight = 3
 [[menu.main]]
     name = "Blog"

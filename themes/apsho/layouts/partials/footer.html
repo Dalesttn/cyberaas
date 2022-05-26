@@ -3,19 +3,26 @@
     <div class="row">
       <div class="col-lg-4 col-md-4">
         <div class="footer-description">
-          <img src="{{ .Site.Params.logo | absURL }}" alt="logo">
+          <img src="{{ .Site.Params.logo | absURL }}" alt="logo" />
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce eget gravida tellus. Proin in quam eu enim blandit fermentum finibus nec.
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce eget
+            gravida tellus. Proin in quam eu enim blandit fermentum finibus nec.
           </p>
           <ul class="footer-description-social">
             <li>
-              <a href="{{ .Site.Params.social.facebook }}"><i class="ti-facebook"></i></a>
+              <a href="{{ .Site.Params.social.facebook }}"
+                ><i class="ti-facebook"></i
+              ></a>
             </li>
             <li>
-              <a href="{{ .Site.Params.social.twitter }}"><i class="ti-twitter-alt"></i></a>
+              <a href="{{ .Site.Params.social.twitter }}"
+                ><i class="ti-twitter-alt"></i
+              ></a>
             </li>
             <li>
-              <a href="{{ .Site.Params.social.github }}"><i class="ti-github"></i></a>
+              <a href="{{ .Site.Params.social.github }}"
+                ><i class="ti-github"></i
+              ></a>
             </li>
           </ul>
         </div>
@@ -25,9 +32,8 @@
           <h4>Links</h4>
           <div class="footer-widget-list">
             <ul>
-              {{ $sitemap := .Site.Menus.sitemap }}
-                {{ range $sitemap }}
-                  <li><a href="{{ .URL | absURL }}">{{ .Name }}</a></li>
+              {{ $sitemap := .Site.Menus.sitemap }} {{ range $sitemap }}
+              <li><a href="{{ .URL | absURL }}">{{ .Name }}</a></li>
               {{ end }}
             </ul>
           </div>
@@ -37,24 +43,25 @@
         <div class="footer-widget">
           <h4>Subscribe</h4>
           <div class="footer-widget-list">
-           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-           <div>
-            <form action="#" class="footer-subscribe-form">
-              <div class="from-group">
-                <div class="input-group">
-                  <input type="email" class="form-control" placeholder="Enter Your E-mail">
-                  <div class="subscribe">
-                    <button class="btn btn-subscribe" type="submit">
-                      <span class="btn-area">
-                        Subscribe
-                      </span>
-                    </button>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <div>
+              <form action="#" class="footer-subscribe-form">
+                <div class="from-group">
+                  <div class="input-group">
+                    <input
+                      type="email"
+                      class="form-control"
+                      placeholder="Enter Your E-mail"
+                    />
+                    <div class="subscribe">
+                      <button class="btn btn-subscribe" type="submit">
+                        <span class="btn-area"> Subscribe </span>
+                      </button>
+                    </div>
                   </div>
-    
                 </div>
-              </div>
-            </form>
-           </div>
+              </form>
+            </div>
           </div>
         </div>
       </div>
@@ -64,9 +71,22 @@
           {{ $address := .Site.Params.address }}
           <div class="footer-widget-list">
             <ul>
-              <li><a href="tel:{{ $address.phone }}"><i class="ti-mobile"></i>{{ $address.phone }}</a></li> 
-              <li><a href="mailto:{{ $address.email }}"><i class="ti-email"></i>{{ $address.email }}</a></li>
-              <li><p><i class="ti-pin"></i>{{ $address.address1 }}<br>{{ $address.address2 }}<br>{{ $address.address3 }}</p></li>
+              <li>
+                <a href="tel:{{ $address.phone }}"
+                  ><i class="ti-mobile"></i>{{ $address.phone }}</a
+                >
+              </li>
+              <li>
+                <a href="mailto:{{ $address.email }}"
+                  ><i class="ti-email"></i>{{ $address.email }}</a
+                >
+              </li>
+              <li>
+                <p>
+                  <i class="ti-pin"></i>{{ $address.address1 }}<br />{{
+                  $address.address2 }}<br />{{ $address.address3 }}
+                </p>
+              </li>
             </ul>
           </div>
         </div>
@@ -75,9 +95,12 @@
   </div>
 </footer>
 
-{{ $style := resources.Get "scss/non-critical.scss" | resources.ToCSS | minify }}
+{{ $style := resources.Get "scss/non-critical.scss" | resources.ToCSS | minify
+}}
 <link href="{{ $style.Permalink }}" rel="stylesheet" />
-{{ $vendor := resources.Get "js/vendor.js" | minify }}
+{{ $vendor := resources.Get "js/vendor.js" | minify }} {{ $script :=
+resources.Get "js/accordion.js" | minify }}
+<script src="{{ $script.Permalink }}"></script>
 <script src="{{ $vendor.Permalink }}"></script>
 {{ $formhandler := resources.Get "js/form-handler.js" | minify }}
 <script src="{{ $formhandler.Permalink }}"></script>
