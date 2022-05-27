@@ -86,7 +86,7 @@ $(document).ready(function () {
   // Testimonial slider
   $(".testimonial-slider").slick({
     infinite: true,
-    slidesToShow: 3,
+    slidesToShow: 1,
     slidesToScroll: 1,
     dots: false,
     arrows: false,
@@ -94,7 +94,7 @@ $(document).ready(function () {
     centerPadding: "-100px",
     autoplay: true,
     speed: 500,
-    vertical: true,
+    vertical: false,
     verticalSwiping: true,
   });
 
