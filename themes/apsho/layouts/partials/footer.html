@@ -106,3 +106,16 @@ resources.Get "js/accordion.js" | minify }}
 <script src="{{ $formhandler.Permalink }}"></script>
 {{ $script := resources.Get "js/script.js" | minify }}
 <script src="{{ $script.Permalink }}"></script>
+<script async defer
+src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCOZnqr3U1VoQcWN6rcpa_Vv88PpD17qS8&callback=initMap">
+</script>
+<script>
+function initMap() {
+  var macc = { lat: 42.1382114, lng: -71.5212585 };
+  var map = new google.maps.Map(document.getElementById("googlemap"), {
+    zoom: 15,
+    center: macc,
+  });
+  var marker = new google.maps.Marker({ position: macc, map: map });
+}
+</script>
