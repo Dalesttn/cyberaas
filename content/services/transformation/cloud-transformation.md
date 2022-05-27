@@ -1,6 +1,6 @@
 ---
 title: "Phishing & Cyber Awareness Training"
-categories: ["Transformation"]
+cat: ["Transformation"]
 summary: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
 featureImage: images/services/code.jpg
 color: "green"

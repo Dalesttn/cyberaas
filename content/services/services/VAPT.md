@@ -1,6 +1,6 @@
 ---
 title: "VAPT Vulnerability Assessment & Penetration Testing"
-categories: ["Services"]
+cat: ["Services"]
 summary: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
 featureImage: images/services/fan.jpg
 color: "blue"

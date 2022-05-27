@@ -1,6 +1,6 @@
 ---
 title: "Data Protection Trustmark"
-categories: ["Standards"]
+cat: ["Standards"]
 summary: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
 featureImage: images/services/code2.jpg
 color: "pink"

@@ -1,6 +1,6 @@
 ---
 title: "Managed Software Patching"
-categories: ["Services"]
+cat: ["Services"]
 summary: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
 featureImage: images/services/gold.jpg
 color: "blue"

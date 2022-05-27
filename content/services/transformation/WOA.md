@@ -1,6 +1,6 @@
 ---
 title: "Workflows Optimisation & Automation"
-categories: ["Transformation"]
+cat: ["Transformation"]
 summary: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
 featureImage: images/services/code2.jpg
 color: "green"

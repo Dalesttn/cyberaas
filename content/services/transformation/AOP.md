@@ -1,6 +1,6 @@
 ---
 title: "Accept Online Payments"
-categories: ["Transformation"]
+cat: ["Transformation"]
 summary: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
 featureImage: images/services/card.jpg
 color: "green"

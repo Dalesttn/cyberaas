@@ -1,6 +1,6 @@
 .footer {
   position: relative;
-  padding: 220px 0 120px;
+  padding: 100px 0 120px;
   overflow: hidden;
   background: #131821;
   color: #fff;
@@ -128,7 +128,7 @@
           color: #fff;
 
           &:hover {
-            color: $text-color-dark;
+            color: #da2e8a;
             text-decoration: none;
           }
         }
@@ -176,7 +176,7 @@
             }
 
             &:hover {
-              color: $text-color-dark;
+              color: #da2e8a;
             }
           }
 

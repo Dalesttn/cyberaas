@@ -30,7 +30,7 @@
       <div class="col-lg-12">
         <div class="box-3">
               {{ $p := .Pages }}
-              {{ $p = where $p "Params.categories" "intersect" (slice "Compliance") }}
+              {{ $p = where $p "Params.cat" "intersect" (slice "Compliance") }}
               {{ range $p  }}
               {{ partial "our-services.html" . }}
               {{ end }}
@@ -67,7 +67,7 @@
       <div class="col-lg-12">
         <div class="box-2">
               {{ $p := .Pages }}
-              {{ $p = where $p "Params.categories" "intersect" (slice "Standards") }}
+              {{ $p = where $p "Params.cat" "intersect" (slice "Standards") }}
               {{ range $p  }}
               {{ partial "our-services.html" . }}
               {{ end }}
@@ -104,7 +104,7 @@
       <div class="col-lg-12">
         <div class="box-3">
               {{ $p := .Pages }}
-              {{ $p = where $p "Params.categories" "intersect" (slice "Services") }}
+              {{ $p = where $p "Params.cat" "intersect" (slice "Services") }}
               {{ range $p  }}
               {{ partial "our-services.html" . }}
               {{ end }}
@@ -141,7 +141,7 @@
       <div class="col-lg-12">
         <div class="box-3">
               {{ $p := .Pages }}
-              {{ $p = where $p "Params.categories" "intersect" (slice "Transformation") }}
+              {{ $p = where $p "Params.cat" "intersect" (slice "Transformation") }}
               {{ range $p  }}
               {{ partial "our-services.html" . }}
               {{ end }}

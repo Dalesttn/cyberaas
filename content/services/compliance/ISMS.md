@@ -1,6 +1,6 @@
 ---
 title: "ISO 27001 Information Security Management System"
-categories: ["Compliance"]
+cat: ["Compliance"]
 summary: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
 featureImage: images/services/laptop.jpg
 color: "purple"

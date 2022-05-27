@@ -1,0 +1,19 @@
+{{ if .Site.Params.widgets.archive }} {{ if isset .Site.Taxonomies "archive" }}
+{{ if not (eq (len .Site.Taxonomies.archive) 0) }}
+<div class="widget-wrap">
+  <div class="widget">
+    <h4>Archive</h4>
+    <ul class="category-list">
+      {{ range $name, $items := .Site.Taxonomies.archive }}
+      <li class="category-list-item">
+        {{ $url := printf "%s/%s" "archive" ($name | urlize | lower)}}
+        <a class="category-list-link" href="{{ $url | absURL }}">
+          {{.Page.Title}}
+        </a>
+        <span class="category-list-count">({{ len $items }})</span>
+      </li>
+      {{ end }}
+    </ul>
+  </div>
+</div>
+{{ end }} {{ end }} {{ end }}

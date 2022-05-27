@@ -1,6 +1,6 @@
 ---
 title: "Managed Network Service"
-categories: ["Services"]
+cat: ["Services"]
 summary: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
 featureImage: images/services/card.jpg
 color: "blue"

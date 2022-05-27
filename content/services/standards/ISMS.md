@@ -1,6 +1,6 @@
 ---
 title: "ISO 27001 Information Security Management System"
-categories: ["Standards"]
+cat: ["Standards"]
 summary: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
 featureImage: images/services/mac.jpg
 color: "pink"

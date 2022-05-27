@@ -1,6 +1,6 @@
 ---
 title: "MAS TRM Technology Risk Management"
-categories: ["Compliance"]
+cat: ["Compliance"]
 summary: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
 featureImage: images/services/mac.jpg
 color: "purple"

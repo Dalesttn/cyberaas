@@ -1,6 +1,6 @@
 ---
 title: "DPO Data Protection Officer"
-categories: ["Services"]
+cat: ["Services"]
 summary: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
 featureImage: images/services/keys.jpg
 color: "blue"

@@ -1,6 +1,6 @@
 ---
 title: "GDPR General Data Protection Regulation"
-categories: ["Compliance"]
+cat: ["Compliance"]
 summary: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
 featureImage: images/services/card.jpg
 color: "purple"

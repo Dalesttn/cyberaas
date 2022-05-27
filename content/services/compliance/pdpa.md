@@ -1,6 +1,6 @@
 ---
 title: "PDPA Personal Data Protection Act"
-categories: ["Compliance"]
+cat: ["Compliance"]
 summary: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
 featureImage: images/services/girl.jpg
 color: "purple"

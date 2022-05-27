@@ -1,6 +1,6 @@
 ---
 title: "PCI-DSS Payment Card Industry Data Security Standard"
-categories: ["Compliance"]
+cat: ["Compliance"]
 summary: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
 featureImage: images/services/code.jpg
 color: "purple"

@@ -5,6 +5,9 @@ featureImage: images/blog/blog-post-5.jpg
 author: William Rick
 authorThumb: images/client/client-2.png
 excerpt: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+tags: ["New Year", "Websites"]
+categories: ["Cyberaas", "General"]
+archive: ["May 2022"]
 ---
 
 A lot has changed about how we work, and most people have no choice but to transition to working from home. But even before the pandemic, an increasing number of people bid goodbye to their onerous commute to become freelancers and telecommuters. Thanks to ever-evolving technologies such as Skype, Zoom, Facetime, Google Hangouts, Slack, and cloud computing, it’s no longer necessary to be in an office to be productive. In fact, most tasks can be done just as effectively from home.

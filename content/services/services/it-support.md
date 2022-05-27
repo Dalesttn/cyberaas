@@ -1,6 +1,6 @@
 ---
 title: "IT Support"
-categories: ["Services"]
+cat: ["Services"]
 summary: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
 featureImage: images/services/cellphone.jpg
 color: "blue"

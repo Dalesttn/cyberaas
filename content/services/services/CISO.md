@@ -1,6 +1,6 @@
 ---
 title: "CISO Chief Information Security Officer"
-categories: ["Services"]
+cat: ["Services"]
 summary: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
 featureImage: images/services/secure.jpg
 color: "blue"

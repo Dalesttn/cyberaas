@@ -7,6 +7,7 @@ theme = "apsho"
 [taxonomies]
     tag = "tags"
     category = "categories"
+    archive = "archive"
 
 # Navigation Bar
 [[menu.main]]
@@ -55,6 +56,13 @@ address2 = "#12-07 Suntec Tower One"
 address3 = " Singapore 038987"
 email = "info@cyberaas.com"
 phone = "+(448) 833 5272 332"
+
+# Enable and disable widgets for the right sidebar
+[params.widgets]
+    recent_articles = true
+    categories = true
+    archive = true
+    tag_cloud = true
 
 # Footer Social
 [params.social]
