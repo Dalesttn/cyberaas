@@ -89,7 +89,7 @@ $(document).ready(function () {
     slidesToShow: 1,
     slidesToScroll: 1,
     dots: false,
-    arrows: false,
+    arrows: true,
     centerMode: true,
     centerPadding: "-100px",
     autoplay: true,

@@ -36,7 +36,7 @@
         line-height: 28px;
         margin-bottom: 10px;
         a {
-          font-size: 20px;
+          font-size: 24px;
           font-weight: 600;
           display: block;
           color: $text-color-dark;
@@ -47,6 +47,9 @@
             color: rgba($color: $primary-color, $alpha: 0.7);
           }
         }
+      }
+      p {
+        font-size:18px;
       }
       .post-author {
         display: flex;
@@ -69,7 +72,7 @@
           }
           p {
             margin-bottom: 0;
-            font-size: 14px;
+            font-size: 16px;
           }
         }
       }
@@ -293,4 +296,22 @@ a.category-list-link {
   background-color: #fafafa;
   border-radius: 10px;
   padding: 20px;
+}
+
+#article-nav {
+  display:flex;
+  justify-content: space-between;
+
+  a:hover {
+    text-decoration: none;
+    color: #da2e8a;
+  }
+}
+
+#article-nav-older, #article-nav-newer {
+  font-size:20px;
+}
+
+hr {
+  padding: 25px 0;
 }

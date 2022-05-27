@@ -15,7 +15,7 @@
             <article class="blog-post-item">
               <div class="blog-post-thumb">
                 <a href="{{ .Permalink }}">
-                  <img src="{{ .Params.featureImage }}" alt="post-thumb"
+                  <img src="{{ .Site.BaseURL}}{{ .Params.featureImage }}" alt="post-thumb"
                 /></a>
               </div>
               <div class="blog-post-content">
