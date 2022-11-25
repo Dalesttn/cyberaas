@@ -1,6 +1,7 @@
 ---
 title: "MAS Cyber Hygiene"
 cat: ["Compliance"]
+weight: 2
 summary: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
 featureImage: images/services/code2.jpg
 color: "purple"

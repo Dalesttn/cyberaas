@@ -95,7 +95,7 @@ $(document).ready(function () {
     autoplay: true,
     speed: 500,
     vertical: false,
-    verticalSwiping: true,
+    verticalSwiping: false,
   });
 
   $(".slick-slider").on("click", ".slick-slide", function (e) {
