@@ -24,11 +24,28 @@
       
       {{ $menu := .Site.Menus.main }}
       <ul class="navbar-nav ml-auto">
-      {{ range $index, $element := $menu }}
         <li class="nav-item">
-          <a href="{{ $.Site.BaseURL }}{{ .URL }}" class="nav-link {{ if $.IsHome }}scroll{{ end }}">{{ .Name }}</a>
+          <a class="nav-link" href="#">Home</a>
         </li>
-      {{ end }}
+        <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="/services">
+          Our Services
+        </a>
+        <ul class="dropdown" aria-label="submenu">
+          <li class="purple"><a href="/services/#compliance">Compliance</a></li>
+          <li class="pink"><a href="/services/#standards">Standards</a></li>
+          <li class="blue"><a href="/services/#services">Managed Services</a></li>
+        </ul>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="/about">About us</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="/blog">Blog</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="/contact">Contact us</a>
+      </li>
       </ul>
       <div class="account-list list-inline">
         <li class="list-inline-item">

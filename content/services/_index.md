@@ -1,8 +1,8 @@
 ---
 title: "Our Services"
 sub: "Services Overview"
-description: "Stay safe and compliant at an affordable cost  Find out how we can help you!"
+description: "We provide essential services to start-ups, SMEs, NFPs and more to help you achieve compliance, meet global standards, and build business resilience for the long run."
 type: "services"
 layout: "list"
-summary: "Stay safe and compliant at an affordable cost  Find out how we can help you!"
+summary: "We provide essential services to start-ups, SMEs, NFPs and more to help you achieve compliance, meet global standards, and build business resilience for the long run."
 ---

@@ -5,7 +5,17 @@
       <div class="col-lg-6">
         <div class="testimonial-content">
           <h2>{{ .title }}</h2>
-          <p>{{ .description }}</p>
+          <p>
+            Startups and SMEs, government departments and large enterprises
+            alike trust us to
+          </p>
+          <dl class="black-dd">
+            <dd>- help them ensure business compliance,</dd>
+            <dd>- operate to global standards,</dd>
+            <dd>- improve technology risk management,</dd>
+            <dd>- align technology with business goals, and</dd>
+            <dd>- boost business capabilities through digitalisation.</dd>
+          </dl>
         </div>
       </div>
       <div class="col-lg-6">
@@ -15,8 +25,7 @@
             <p>{{ .text }}</p>
             <div class="testimonial-slider-person">
               <div class="thumb">
-                <img
-                  src="{{$.Site.BaseURL}}{{ .image  }}" alt="person-thumb" />
+                <img src="{{$.Site.BaseURL}}{{ .image  }}" alt="person-thumb" />
               </div>
               <div class="content">
                 <h3>{{ .name }}</h3>

@@ -1,7 +1,7 @@
 ---
 enable: true
 title: What clients are say about us
-description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris quis mollis justo. Nunc vehicula lectus a felis porta efficitur. Class aptent taciti sociosqu ad litora torquent per conubia nostra.
+description: Startups and SMEs, government departments and large enterprises alike trust us to
 comments:
   - text: This is the best overall experience I have had with any template of any kind. Statimania made me feel like a valued customer and I feel empowered.
     name: Juhair Islam
@@ -17,7 +17,7 @@ comments:
     name: Xevier John
     designation: CTO
     image: images/client/client-3.png
-     
+
   - text: We’ve used their templates before and have always been hugely satisfied - Stack is no exception
     name: Kerri Reece
     designation: Designer

@@ -2,7 +2,8 @@
 title: "PCI-DSS Payment Card Industry Data Security Standard"
 cat: ["Compliance"]
 weight: 4
-summary: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+summary: "Does your business (whatever its size) accept payments by credit cards? 
+If so, your organisation must operate in compliance with the global Payment Card Industry Data Security Standard (PCI-DSS). We help you detect security weaknesses, test defences, and obtain certification."
 featureImage: images/services/code.jpg
 color: "purple"
 recommended: "Example1, Example2"

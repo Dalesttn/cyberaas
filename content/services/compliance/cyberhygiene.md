@@ -2,7 +2,7 @@
 title: "MAS Cyber Hygiene"
 cat: ["Compliance"]
 weight: 2
-summary: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+summary: "If you operate in Singapore’s Financial Services Industry (FSI), it’s vital that you comply with guidelines and mandatory notices issued by the Monetary Authority of Singapore (MAS). "
 featureImage: images/services/code2.jpg
 color: "purple"
 recommended: "Example1, Example2"

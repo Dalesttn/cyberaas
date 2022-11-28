@@ -2,7 +2,7 @@
 title: "MAS TRM Technology Risk Management"
 cat: ["Compliance"]
 weight: 3
-summary: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+summary: "If you’re a financial institution ( (see all types covered here), you need to follow the Guidelines on Risk Management Practices - Technology Risk published by the Monetary Authority of Singapore (MAS) to manage these risks. "
 featureImage: images/services/mac.jpg
 color: "purple"
 recommended: "Example1, Example2"

@@ -1,33 +1,32 @@
 .accreds {
-    background: url("/vector.png"); /* The image used */
-    background-color:#EEEEEE;
-    background-position: center; /* Center the image */
-    background-repeat: no-repeat; /* Do not repeat the image */
-    background-size: cover; /* Resize the background image to cover the entire container */
-    background-position: 20%;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 400px;
-    width:100%;
-    position:relative;
+  background: url("/vector.png"); /* The image used */
+  background-color: #eeeeee;
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+  background-position: 20%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 400px;
+  width: 100%;
+  position: relative;
 }
 
 .accreditations {
-    position:absolute;
-    top:30%;
-    left:15%;
-    height:600px;
+  position: absolute;
+  top: 30%;
+  left: 15%;
+  height: 600px;
+  width: 800px;
 }
 
 .certifications {
-    margin-top: -148px;
+  margin-top: -148px;
 }
 
 .accred {
-    text-align: center;
-    img {
-        padding:0 20px;
-    }
+  text-align: center;
+  img {
+    padding: 0 20px;
+  }
 }
-
-
