@@ -1,7 +1,8 @@
 ---
 title: "Source Code Review"
 cat: ["Services"]
-summary: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+summary: "A functional network is the backbone of your business. Keep it healthy and agile with proper planning, audits,  monitoring and maintenance.
+"
 featureImage: images/services/card.jpg
 color: "blue"
 recommended: "Example1, Example2"

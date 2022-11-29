@@ -1,7 +1,7 @@
 ---
 title: "CISO Chief Information Security Officer"
 cat: ["Services"]
-summary: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+summary: "Let our experienced CISO provide the executive leadership to ensure robust top down information security. You get sought-after expertise when you need it."
 featureImage: images/services/secure.jpg
 color: "blue"
 recommended: "Example1, Example2"

@@ -1,7 +1,7 @@
 ---
 title: "Phishing & Cyber Awareness Training"
 cat: ["Services"]
-summary: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+summary: "Training is an essential element for developing a cyber-savvy work culture. Increase staff knowledge and cyber resilience to protect against a range of cyber hacks and crimes.  "
 featureImage: images/services/computer.jpg
 color: "blue"
 recommended: "Example1, Example2"

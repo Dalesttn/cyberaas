@@ -1,7 +1,7 @@
 ---
 title: "DPO Data Protection Officer"
 cat: ["Services"]
-summary: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+summary: "It’s a prudent business decision to have a dedicated person in charge of data protection compliance. This ensures that this critical function gets the timely priority it deserves."
 featureImage: images/services/keys.jpg
 color: "blue"
 recommended: "Example1, Example2"

@@ -1,5 +1,5 @@
 ---
 title: Contact Us
-subheading: "Contact Overview"
-summary: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus vestibulum est ut nulla pellentesque, a tempus lorem bibendum."
+subheading: "We're here to help."
+summary: "Let us know if we could help you relieve any cyber or technology headaches."
 ---

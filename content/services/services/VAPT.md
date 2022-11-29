@@ -1,7 +1,7 @@
 ---
 title: "VAPT Vulnerability Assessment & Penetration Testing"
 cat: ["Services"]
-summary: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+summary: "Play the devil’s advocate with ethical hacking on your own systems. Don’t let malicious attacks hurt your bottom line and reputation."
 featureImage: images/services/fan.jpg
 color: "blue"
 recommended: "Example1, Example2"
