@@ -45,8 +45,15 @@ function pdpa() {
   popup.classList.toggle("show");
 }
 
+var score;
+var result;
+var correct;
+var wrong;
+
 // quiz
 (function () {
+  $("#client-info").hide();
+  $("#thank-you").hide();
   var questions = [
     {
       question: "What is 2*5?",
@@ -207,12 +214,17 @@ function pdpa() {
 
   // Computes score and returns a paragraph element to be displayed
   function displayScore() {
-    var score = $("<p>", { id: "question" });
+    score = $("<p>", { id: "question" });
 
     var numCorrect = 0;
+    correct = "";
+    wrong = "";
     for (var i = 0; i < selections.length; i++) {
       if (selections[i] === questions[i].correctAnswer) {
         numCorrect++;
+        correct += "<p>" + questions[i].question + "</p>";
+      } else {
+        wrong += "<p>" + questions[i].question + "</p>";
       }
     }
 
@@ -224,22 +236,78 @@ function pdpa() {
         " right!!!"
     );
 
-    // score.append(
-    //   '<form id="javascript_form" method="post" id="email_form>' +
-    //     '<input type="text" name="subject" placeholder="Subject" /><input type="hidden" name="access_token" value="99r09rq7pbb3wy5cqm1g1vm4" />' +
-    //     '<textarea name="text" placeholder="Message"></textarea>' +
-    //     '<input type="submit" id="js_send" value="Send" />' +
-    //     "</form>"
-    // );
+    result =
+      "You got " +
+      numCorrect +
+      " questions out of " +
+      questions.length +
+      " right!!!";
 
-    Email.send({
-      SecureToken: "aae6f389-297c-4be3-b9f6-f80403a22bcd",
-      To: "d.sutton@ignitesearch.com.au",
-      From: "d.sutton@ignitesearch.com.au",
-      Subject: "This is the subject",
-      Body: "And this is the body",
-    }).then((message) => alert(message));
+    $("#client-info").show();
 
     return score;
   }
 })();
+
+function sendMsg(e) {
+  e.preventDefault();
+
+  const name = document.querySelector("#name");
+  const email = document.querySelector("#email");
+
+  Email.send({
+    SecureToken: "5d34dcfd-3bb5-47f0-999a-a72079a49458",
+    To: "online@ignitesearch.com.au",
+    From: "d.sutton@ignitesearch.com.au",
+    Subject: "New PDPA Assessment",
+    Body:
+      "<h1>You have a new entry for an Assessment</h1>" +
+      "<h4>Assessment made by " +
+      name.value +
+      " " +
+      email.value +
+      "</h4>" +
+      "<h3>" +
+      result +
+      "</h3>" +
+      "<h2>Correct Answers</h2>" +
+      "<h3>" +
+      correct +
+      "</h3>" +
+      "<h2>Wrong Answers</h2>" +
+      "<h3'>" +
+      wrong +
+      "</h3>",
+  }).then((message) => alert(message));
+
+  Email.send({
+    SecureToken: "5d34dcfd-3bb5-47f0-999a-a72079a49458",
+    To: email.value,
+    From: "d.sutton@ignitesearch.com.au",
+    Subject: "New PDPA Assessment",
+    Body:
+      "<h1>Thank you for taking the Assessment, here are your results ...</h1>" +
+      "<h4>Assessment made by " +
+      name.value +
+      " " +
+      email.value +
+      "</h4>" +
+      "<h3>" +
+      result +
+      "</h3>" +
+      "<h2>Correct Answers</h2>" +
+      "<h3>" +
+      correct +
+      "</h3>" +
+      "<h2>Wrong Answers</h2>" +
+      "<h3>" +
+      wrong +
+      "</h3>",
+  }).then((message) => alert(message));
+
+  $("#client-info").hide();
+  $("#thank-you").show();
+}
+
+const form = document.querySelector("#contact_form");
+form.addEventListener("submit", sendMsg);
