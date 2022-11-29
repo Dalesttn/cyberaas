@@ -56,29 +56,46 @@ var wrong;
   $("#thank-you").hide();
   var questions = [
     {
-      question: "What is 2*5?",
-      choices: [2, 5, 10, 15, 20],
-      correctAnswer: 2,
+      question: "Are you in any of these industries?",
+      choices: [
+        "Financial Services",
+        "Corporate Secretarial Services",
+        "Accounting Services",
+        "Healthcare",
+        "Education",
+        "Recruitment",
+        "Logistics",
+        "Real Estate",
+      ],
+      correctAnswer: 1,
     },
     {
-      question: "What is 3*6?",
-      choices: [3, 6, 9, 12, 18],
-      correctAnswer: 4,
+      question:
+        "When there is a data breach, do you or your staff know how to respond correctly?",
+      choices: ["Yes", "No"],
+      correctAnswer: 1,
     },
     {
-      question: "What is 8*9?",
-      choices: [72, 99, 108, 134, 156],
-      correctAnswer: 0,
+      question: "Do you have basic cybersecurity hygiene in place?",
+      choices: [
+        "Anti-virus",
+        "Firewall",
+        "User Access Controls",
+        "Password Policy & Enforcement",
+        "Regular Software Patching",
+      ],
+      correctAnswer: 1,
     },
     {
-      question: "What is 1*7?",
-      choices: [4, 5, 6, 7, 8],
-      correctAnswer: 3,
+      question:
+        "Do you and your staff receive PDPA and cyber awareness training at least once a year?",
+      choices: ["Yes", "No"],
+      correctAnswer: 1,
     },
     {
-      question: "What is 8*8?",
-      choices: [20, 30, 40, 50, 64],
-      correctAnswer: 4,
+      question: "Do you have a data loss prevention solution in place?",
+      choices: ["Yes", "No"],
+      correctAnswer: 1,
     },
   ];
 
@@ -219,29 +236,17 @@ var wrong;
     var numCorrect = 0;
     correct = "";
     wrong = "";
+    console.log(selections);
     for (var i = 0; i < selections.length; i++) {
-      if (selections[i] === questions[i].correctAnswer) {
-        numCorrect++;
-        correct += "<p>" + questions[i].question + "</p>";
-      } else {
-        wrong += "<p>" + questions[i].question + "</p>";
-      }
+      correct +=
+        "<p>" +
+        questions[i].question +
+        "Answer: " +
+        questions[i].choices[selections[i]] +
+        "</p>";
     }
 
-    score.append(
-      "You got " +
-        numCorrect +
-        " questions out of " +
-        questions.length +
-        " right!!!"
-    );
-
-    result =
-      "You got " +
-      numCorrect +
-      " questions out of " +
-      questions.length +
-      " right!!!";
+    console.log(correct);
 
     $("#client-info").show();
 
@@ -267,17 +272,8 @@ function sendMsg(e) {
       " " +
       email.value +
       "</h4>" +
-      "<h3>" +
-      result +
-      "</h3>" +
-      "<h2>Correct Answers</h2>" +
-      "<h3>" +
-      correct +
-      "</h3>" +
-      "<h2>Wrong Answers</h2>" +
-      "<h3'>" +
-      wrong +
-      "</h3>",
+      "<h2>Answers</h2>" +
+      correct,
   }).then((message) => alert(message));
 
   Email.send({
@@ -292,17 +288,8 @@ function sendMsg(e) {
       " " +
       email.value +
       "</h4>" +
-      "<h3>" +
-      result +
-      "</h3>" +
-      "<h2>Correct Answers</h2>" +
-      "<h3>" +
-      correct +
-      "</h3>" +
-      "<h2>Wrong Answers</h2>" +
-      "<h3>" +
-      wrong +
-      "</h3>",
+      "<h2>Answers</h2>" +
+      correct,
   }).then((message) => alert(message));
 
   $("#client-info").hide();
