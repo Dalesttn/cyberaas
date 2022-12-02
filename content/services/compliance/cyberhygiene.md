@@ -10,10 +10,25 @@ implementation: "1-5 weeks"
 investment: "Starting at $8100"
 ---
 
-## Heading1
+We help your financial services business put habitual practices in place to ensure your data and networks are secure. Our solutions are affordable for price-conscious SMEs, and help you achieve effective ROIs.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus vestibulum est ut nulla pellentesque, a tempus lorem bibendum. Suspendisse vehicula pretium tellus in luctus. Cras ut venenatis augue, eget malesuada ligula. Integer non dolor metus. Sed nec lobortis massa, quis ullamcorper nisi. In scelerisque sodales tellus eu fringilla. Nulla sodales ligula a sapien sollicitudin feugiat. Curabitur vitae sem ante. Pellentesque lacus risus, varius ac venenatis nec, mattis faucibus lectus. Duis convallis, ipsum non luctus consequat, quam sapien venenatis dui, vel placerat dolor nunc sed erat. Aliquam vel orci lobortis mi malesuada molestie et id enim. Pellentesque finibus pellentesque orci, eget condimentum mi scelerisque at.
+## Why/How can Cyberaas help?
 
-## Heading2
+We help your organisation put six types of secure practices in place:
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus vestibulum est ut nulla pellentesque, a tempus lorem bibendum. Suspendisse vehicula pretium tellus in luctus. Cras ut venenatis augue, eget malesuada ligula. Integer non dolor metus. Sed nec lobortis massa, quis ullamcorper nisi. In scelerisque sodales tellus eu fringilla. Nulla sodales ligula a sapien sollicitudin feugiat. Curabitur vitae sem ante. Pellentesque lacus risus, varius ac venenatis nec, mattis faucibus lectus. Duis convallis, ipsum non luctus consequat, quam sapien venenatis dui, vel placerat dolor nunc sed erat. Aliquam vel orci lobortis
+- Secure administrative accounts,
+- Apply security patching,
+- Deploy network security devices,
+- Implement anti-malware measures, and
+- Strengthen user authentication.
+
+## Menu of MAS Cyber Hygiene services:
+
+Help businesses strengthen cyber defence and comply with the requirements of specific requirements for each type of business:
+
+For more information, splease visit the MAS website https://www.mas.gov.sg/publications/consultations/2018/consultation-paper-on-notice-on-cyber-hygiene
+
+- **JumpCloud directory maintenance** - Ensure secure data transmission.
+- **Managed Patch Management** - Update software smoothly without breaking business functions.
+- **Managed Network Services** - Proactively uphold network security.
+- **Managed Endpoint Service** - Keep diverse computing devices secure.

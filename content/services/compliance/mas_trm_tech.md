@@ -10,10 +10,17 @@ implementation: "1-5 weeks"
 investment: "Starting at $8100"
 ---
 
-## Heading1
+Abide by these comprehensive guidelines for managing technology risks to improve cyber governance and reduce risk. These are legal requirements for financial institutions in Singapore.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus vestibulum est ut nulla pellentesque, a tempus lorem bibendum. Suspendisse vehicula pretium tellus in luctus. Cras ut venenatis augue, eget malesuada ligula. Integer non dolor metus. Sed nec lobortis massa, quis ullamcorper nisi. In scelerisque sodales tellus eu fringilla. Nulla sodales ligula a sapien sollicitudin feugiat. Curabitur vitae sem ante. Pellentesque lacus risus, varius ac venenatis nec, mattis faucibus lectus. Duis convallis, ipsum non luctus consequat, quam sapien venenatis dui, vel placerat dolor nunc sed erat. Aliquam vel orci lobortis mi malesuada molestie et id enim. Pellentesque finibus pellentesque orci, eget condimentum mi scelerisque at.
+**Benefits.** We help your business figure out what you need to do to ‘establish sound and robust technology risk governance and oversight, as well as maintain IT and cyber resilience’.
 
-## Heading2
+## MAS TRM Services
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus vestibulum est ut nulla pellentesque, a tempus lorem bibendum. Suspendisse vehicula pretium tellus in luctus. Cras ut venenatis augue, eget malesuada ligula. Integer non dolor metus. Sed nec lobortis massa, quis ullamcorper nisi. In scelerisque sodales tellus eu fringilla. Nulla sodales ligula a sapien sollicitudin feugiat. Curabitur vitae sem ante. Pellentesque lacus risus, varius ac venenatis nec, mattis faucibus lectus. Duis convallis, ipsum non luctus consequat, quam sapien venenatis dui, vel placerat dolor nunc sed erat. Aliquam vel orci lobortis
+- **Managed Patch Management** - Update software smoothly without breaking business functions.
+- **Managed Network Services** - Proactively uphold network security.
+- **Managed Endpoint Service** - Keep diverse computing devices secure.
+- **CISO Services** - Get IT security leadership on demand.
+- **Log Review Service** - Analyse and use information from computer logs.
+- **Vulnerability Assessment and Penetration Testing** - Assess and minimise risks of external attacks.
+- **Source Code Review** - Update coding to remove errors and minimise bugs.
+- **And more** …

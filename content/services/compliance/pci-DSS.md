@@ -11,10 +11,14 @@ implementation: "1-5 weeks"
 investment: "Starting at $8100"
 ---
 
-## Heading1
+If you take payments from credit cards in the course of conducting your business, you must ensure transactions are completed securely with data protection in mind.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus vestibulum est ut nulla pellentesque, a tempus lorem bibendum. Suspendisse vehicula pretium tellus in luctus. Cras ut venenatis augue, eget malesuada ligula. Integer non dolor metus. Sed nec lobortis massa, quis ullamcorper nisi. In scelerisque sodales tellus eu fringilla. Nulla sodales ligula a sapien sollicitudin feugiat. Curabitur vitae sem ante. Pellentesque lacus risus, varius ac venenatis nec, mattis faucibus lectus. Duis convallis, ipsum non luctus consequat, quam sapien venenatis dui, vel placerat dolor nunc sed erat. Aliquam vel orci lobortis mi malesuada molestie et id enim. Pellentesque finibus pellentesque orci, eget condimentum mi scelerisque at.
+We apply recommendations from the global framework of specifications, tools, measurements, and support resources for secure credit card transactions to your business.
 
-## Heading2
+**Benefits.** Our PCI-DSS Compliance services give you comprehensive data, insightful analytics, indepth reporting and more so you can monitor security, preempt failure and zoom in on potential problems.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus vestibulum est ut nulla pellentesque, a tempus lorem bibendum. Suspendisse vehicula pretium tellus in luctus. Cras ut venenatis augue, eget malesuada ligula. Integer non dolor metus. Sed nec lobortis massa, quis ullamcorper nisi. In scelerisque sodales tellus eu fringilla. Nulla sodales ligula a sapien sollicitudin feugiat. Curabitur vitae sem ante. Pellentesque lacus risus, varius ac venenatis nec, mattis faucibus lectus. Duis convallis, ipsum non luctus consequat, quam sapien venenatis dui, vel placerat dolor nunc sed erat. Aliquam vel orci lobortis
+## Menu of PCI-DSS Services
+
+- **Detect weaknesses** - With an External Vulnerability Scan (ASV).
+- **Test defences** - With Vulnerability Assessment & Penetration Testing (VAPT).
+- **Obtain certification** - We help you prepare for and obtain PCI-DSS certification.

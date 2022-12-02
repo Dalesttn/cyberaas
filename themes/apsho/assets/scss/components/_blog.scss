@@ -49,7 +49,7 @@
         }
       }
       p {
-        font-size:18px;
+        font-size: 18px;
       }
       .post-author {
         display: flex;
@@ -255,8 +255,9 @@
 }
 
 ul {
-  list-style-type: none;
+  // list-style-type: none;
   padding: 10px;
+  color: #000;
 }
 
 .category-list-link {
@@ -299,7 +300,7 @@ a.category-list-link {
 }
 
 #article-nav {
-  display:flex;
+  display: flex;
   justify-content: space-between;
 
   a:hover {
@@ -308,8 +309,9 @@ a.category-list-link {
   }
 }
 
-#article-nav-older, #article-nav-newer {
-  font-size:20px;
+#article-nav-older,
+#article-nav-newer {
+  font-size: 20px;
 }
 
 hr {
