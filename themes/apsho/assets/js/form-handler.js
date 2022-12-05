@@ -49,6 +49,7 @@ var score;
 var result;
 var correct;
 var wrong;
+var email_text;
 
 // quiz
 (function () {
@@ -56,45 +57,31 @@ var wrong;
   $("#thank-you").hide();
   var questions = [
     {
-      question: "Are you in any of these industries?",
-      choices: [
-        "Financial Services",
-        "Corporate Secretarial Services",
-        "Accounting Services",
-        "Healthcare",
-        "Education",
-        "Recruitment",
-        "Logistics",
-        "Real Estate",
-      ],
+      question:
+        "Is your org/business nature in FSI, Healthcare, Education, Recruitment, Logistics or Real Estate?",
+      choices: ["No", "Yes"],
       correctAnswer: 1,
     },
     {
       question:
-        "When there is a data breach, do you or your staff know how to respond correctly?",
-      choices: ["Yes", "No"],
+        "Do you know how to respond to a data breach properly/correctly?",
+      choices: ["No", "Yes"],
       correctAnswer: 1,
     },
     {
-      question: "Do you have basic cybersecurity hygiene in place?",
-      choices: [
-        "Anti-virus",
-        "Firewall",
-        "User Access Controls",
-        "Password Policy & Enforcement",
-        "Regular Software Patching",
-      ],
+      question: "Do you have a data loss prevention solution implemented?",
+      choices: ["No", "Yes"],
+      correctAnswer: 1,
+    },
+    {
+      question: "Do you take cyber awareness training at least once a year?",
+      choices: ["No", "Yes"],
       correctAnswer: 1,
     },
     {
       question:
-        "Do you and your staff receive PDPA and cyber awareness training at least once a year?",
-      choices: ["Yes", "No"],
-      correctAnswer: 1,
-    },
-    {
-      question: "Do you have a data loss prevention solution in place?",
-      choices: ["Yes", "No"],
+        "Do all your users have Administrator rights to their workstations?",
+      choices: ["No", "Yes"],
       correctAnswer: 1,
     },
   ];
@@ -102,6 +89,7 @@ var wrong;
   var questionCounter = 0; //Tracks question number
   var selections = []; //Array containing user choices
   var quiz = $("#quiz"); //Quiz div object
+  $("#start").hide();
 
   // Display initial question
   displayNext();
@@ -179,7 +167,7 @@ var wrong;
 
   // Creates a list of the answer choices as radio inputs
   function createRadios(index) {
-    var radioList = $("<ul>");
+    var radioList = $("<ul class='quiz-radio'>");
     var item;
     var input = "";
     for (var i = 0; i < questions[index].choices.length; i++) {
@@ -237,6 +225,107 @@ var wrong;
     correct = "";
     wrong = "";
     console.log(selections);
+
+    // match scenario matrix
+    const a = [1, 0, 0, 0, 0]; // scenario 1
+    const b = [1, 1, 0, 0, 0]; // scenario 2
+    const c = [1, 1, 1, 0, 0]; // scenario 3
+    const d = [1, 1, 1, 1, 0]; // scenario 4
+    const e = [1, 1, 1, 1, 1]; // scenario 5
+    const f = [0, 0, 0, 0, 0]; // scenario 6
+    const g = [0, 1, 0, 0, 0]; // scenario 7
+    const h = [0, 1, 1, 0, 0]; // scenario 8
+    const j = [0, 1, 1, 1, 0]; // scenario 9
+    const k = [0, 1, 1, 1, 1]; // scenario 10
+
+    //1
+    if (arrayEquals(selections, a)) {
+      email_text =
+        "<h3 style='color:red;'>You are not compliant with the PDPA.</h3>" +
+        "<ul>" +
+        "<li><b>High risk</b> of data leakage and breaches as there is no personal data protection for your customers data at all.</li>" +
+        "<li><b>High impact.</b> When a data breach occurs, you will face regulatory action from the PDPC, and suffer financial and reputational damage.</li>" +
+        "</ul>";
+    }
+    //2
+    if (arrayEquals(selections, b)) {
+      email_text =
+        "<h3 style='color:red;'>You are not compliant with the PDPA.</h3>" +
+        "<ul>" +
+        "<li><b>High risk</b> of data leakage and breaches as there is no personal data protection for your customers data at all.</li>" +
+        "<li><b>High impact.</b> When a data breach occurs, you will face regulatory action from the PDPC, and suffer financial and reputational damage.</li>" +
+        "</ul>";
+    }
+    //3
+    if (arrayEquals(selections, c)) {
+      email_text =
+        "<h3 style='color:red;'>You are not compliant with the PDPA.</h3>" +
+        "<ul>" +
+        "<li><b>Medium Risk.</b> You have your basic cybersecurity hygiene covered, however, PDPA policies and processes are not in place and your staff are not educated in cyber awareness; humans are the weakest link.</li>" +
+        "<li><b>High impact.</b> When a data breach occurs, you will face regulatory action from the PDPC, and suffer financial and reputational damage.</li>" +
+        "</ul>";
+    }
+    //4
+    if (arrayEquals(selections, d)) {
+      email_text =
+        "<h3 style='color:red;'>You are not compliant with the PDPA.</h3>" +
+        "<ul>" +
+        "<li><b>Medium Risk.</b> You have your basic cybersecurity hygiene covered, however, PDPA policies and processes are not in place and your staff are not educated in cyber awareness; humans are the weakest link.</li>" +
+        "<li><b>High impact.</b> When a data breach occurs, you will face regulatory action from the PDPC, and suffer financial and reputational damage.</li>" +
+        "</ul>";
+    }
+    //5
+    if (arrayEquals(selections, e)) {
+      email_text =
+        "<h3 style='color:green;'>Your organisation and customers are safe.</h3>" +
+        "<ul>" +
+        "<li>Please reach out to us to verify if you are fully compliant with the PDPA..</li>" +
+        "</ul>";
+    }
+    //6
+    if (arrayEquals(selections, f)) {
+      email_text =
+        "<h3 style='color:red;'>You are not compliant with the PDPA.</h3>" +
+        "<ul>" +
+        "<li><b>High risk</b> of a malware attack as there is no data protection at all. You are walking 'naked'. </li>" +
+        "<li><b>High impact.</b>  The average downtime of a malware attack to SME is 7 days, provided if you have data backups. Your organisation is crippled as your day-to-day operations will be affected.</li>" +
+        "</ul>";
+    }
+    //7
+    if (arrayEquals(selections, g)) {
+      email_text =
+        "<h3 style='color:red;'>You are not compliant with the PDPA.</h3>" +
+        "<ul>" +
+        "<li><b>High risk</b> of a malware attack as there is no data protection at all. You are walking 'naked'. </li>" +
+        "<li><b>High impact.</b>  The average downtime of a malware attack to SME is 7 days, provided if you have data backups. Your organisation is crippled as your day-to-day operations will be affected.</li>" +
+        "</ul>";
+    }
+    //8
+    if (arrayEquals(selections, h)) {
+      email_text =
+        "<h3 style='color:red;'>You are not compliant with the PDPA.</h3>" +
+        "<ul>" +
+        "<li><b>Medium Risk.</b> You have your basic cybersecurity hygiene covered, however, PDPA policies and processes are not in place and your staff are not educated in cyber awareness; humans are the weakest link.</li>" +
+        "<li><b>High impact.</b> When a data breach occurs, you will face regulatory action from the PDPC, and suffer financial and reputational damage.</li>" +
+        "</ul>";
+    }
+    //9
+    if (arrayEquals(selections, j)) {
+      email_text =
+        "<h3 style='color:red;'>You are not compliant with the PDPA.</h3>" +
+        "<ul>" +
+        "<li><b>Low risk and low impact.</b> You have your basic cybersecurity hygiene covered, however, your PDPA policies and processes are not in place. </li>" +
+        "</ul>";
+    }
+    //10
+    if (arrayEquals(selections, k)) {
+      email_text =
+        "<h3 style='color:green;'>Your organisation and customers are safe.</h3>" +
+        "<ul>" +
+        "<li>Please reach out to us to verify if you are fully compliant with the PDPA..</li>" +
+        "</ul>";
+    }
+
     for (var i = 0; i < selections.length; i++) {
       correct +=
         "<p>" +
@@ -244,6 +333,14 @@ var wrong;
         "Answer: " +
         questions[i].choices[selections[i]] +
         "</p>";
+    }
+
+    if (arrayEquals(selections, j)) {
+      email_text =
+        "<h3 style='color:green;'>Your organisation and customers are safe.</h3>" +
+        "<ul>" +
+        "<li>Please reach out to us to verify if you are fully compliant with the PDPA..</li>" +
+        "</ul>";
     }
 
     console.log(correct);
@@ -273,7 +370,7 @@ function sendMsg(e) {
       email.value +
       "</h4>" +
       "<h2>Answers</h2>" +
-      correct,
+      email_text,
   }).then((message) => alert(message));
 
   Email.send({
@@ -288,12 +385,21 @@ function sendMsg(e) {
       " " +
       email.value +
       "</h4>" +
-      "<h2>Answers</h2>" +
-      correct,
+      "<h2>Details</h2>" +
+      email_text,
   }).then((message) => alert(message));
 
   $("#client-info").hide();
   $("#thank-you").show();
+}
+
+function arrayEquals(a, b) {
+  return (
+    Array.isArray(a) &&
+    Array.isArray(b) &&
+    a.length === b.length &&
+    a.every((val, index) => val === b[index])
+  );
 }
 
 const form = document.querySelector("#contact_form");

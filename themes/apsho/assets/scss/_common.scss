@@ -179,7 +179,7 @@ a {
   position: absolute;
   top: 20px;
   right: 30px;
-  transition: all 200ms;
+  transition: all 50ms;
   font-size: 30px;
   font-weight: bold;
   text-decoration: none;
@@ -297,4 +297,18 @@ dl {
 
 .black-dd {
   color: #622f89 !important;
+}
+
+.quiz-radio li {
+  border: 1px solid #e6e6e6;
+  padding: 15px;
+  margin-bottom: 10px;
+}
+
+input[type="radio"] {
+  margin-right: 5px;
+}
+
+#client-info h3 {
+  text-align: center;
 }
