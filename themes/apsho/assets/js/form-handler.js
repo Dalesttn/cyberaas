@@ -248,7 +248,7 @@ var email_text;
         "</ul>";
     }
     //2
-    if (arrayEquals(selections, b)) {
+    else if (arrayEquals(selections, b)) {
       email_text =
         "<h3 style='color:red;'>You are not compliant with the PDPA.</h3>" +
         "<ul>" +
@@ -257,7 +257,7 @@ var email_text;
         "</ul>";
     }
     //3
-    if (arrayEquals(selections, c)) {
+    else if (arrayEquals(selections, c)) {
       email_text =
         "<h3 style='color:red;'>You are not compliant with the PDPA.</h3>" +
         "<ul>" +
@@ -266,7 +266,7 @@ var email_text;
         "</ul>";
     }
     //4
-    if (arrayEquals(selections, d)) {
+    else if (arrayEquals(selections, d)) {
       email_text =
         "<h3 style='color:red;'>You are not compliant with the PDPA.</h3>" +
         "<ul>" +
@@ -275,7 +275,7 @@ var email_text;
         "</ul>";
     }
     //5
-    if (arrayEquals(selections, e)) {
+    else if (arrayEquals(selections, e)) {
       email_text =
         "<h3 style='color:green;'>Your organisation and customers are safe.</h3>" +
         "<ul>" +
@@ -283,7 +283,7 @@ var email_text;
         "</ul>";
     }
     //6
-    if (arrayEquals(selections, f)) {
+    else if (arrayEquals(selections, f)) {
       email_text =
         "<h3 style='color:red;'>You are not compliant with the PDPA.</h3>" +
         "<ul>" +
@@ -292,7 +292,7 @@ var email_text;
         "</ul>";
     }
     //7
-    if (arrayEquals(selections, g)) {
+    else if (arrayEquals(selections, g)) {
       email_text =
         "<h3 style='color:red;'>You are not compliant with the PDPA.</h3>" +
         "<ul>" +
@@ -301,7 +301,7 @@ var email_text;
         "</ul>";
     }
     //8
-    if (arrayEquals(selections, h)) {
+    else if (arrayEquals(selections, h)) {
       email_text =
         "<h3 style='color:red;'>You are not compliant with the PDPA.</h3>" +
         "<ul>" +
@@ -310,7 +310,7 @@ var email_text;
         "</ul>";
     }
     //9
-    if (arrayEquals(selections, j)) {
+    else if (arrayEquals(selections, j)) {
       email_text =
         "<h3 style='color:red;'>You are not compliant with the PDPA.</h3>" +
         "<ul>" +
@@ -318,7 +318,15 @@ var email_text;
         "</ul>";
     }
     //10
-    if (arrayEquals(selections, k)) {
+   else  if (arrayEquals(selections, k)) {
+      email_text =
+        "<h3 style='color:green;'>Your organisation and customers are safe.</h3>" +
+        "<ul>" +
+        "<li>Please reach out to us to verify if you are fully compliant with the PDPA..</li>" +
+        "</ul>";
+    }
+
+  else (arrayEquals(selections, k)) {
       email_text =
         "<h3 style='color:green;'>Your organisation and customers are safe.</h3>" +
         "<ul>" +
