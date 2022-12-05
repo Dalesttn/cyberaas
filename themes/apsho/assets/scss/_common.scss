@@ -196,6 +196,7 @@ a {
 .quiz-btns {
   display: flex;
   gap: 20px;
+  flex-direction: row-reverse;
 }
 
 @media screen and (max-width: 700px) {
@@ -311,4 +312,10 @@ input[type="radio"] {
 
 #client-info h3 {
   text-align: center;
+}
+
+#header-image {
+  background-image: url("../../header.png");
+  width: 600px;
+  height: 100px;
 }
