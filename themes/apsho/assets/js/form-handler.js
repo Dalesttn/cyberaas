@@ -372,14 +372,7 @@ function sendMsg(e) {
     From: "d.sutton@ignitesearch.com.au",
     Subject: "New PDPA Assessment",
     Body:
-      "<html>" +
-      "<head>" +
-      "<style>" +
-      "body {width:100%;margin:30% 0;}" +
-      "</style>" +
-      "</head>" +
-      "<body>" +
-      "<div>" +
+      "<div id='a3s'>" +
       "<div><img src='https://www.ignitesearch.com.au/wp-content/uploads/2022/12/header.jpg'/></div>" +
       "<h1>You have a new entry for an Assessment</h1>" +
       "<h4>Assessment made by " +
@@ -389,8 +382,7 @@ function sendMsg(e) {
       "</h4>" +
       "<h2>Answers</h2>" +
       email_text +
-      "</div>" +
-      "</body></html>",
+      "</div>",
   }).then((message) => alert(message));
 
   Email.send({
@@ -399,14 +391,7 @@ function sendMsg(e) {
     From: "d.sutton@ignitesearch.com.au",
     Subject: "New PDPA Assessment",
     Body:
-      "<html>" +
-      "<head>" +
-      "<style>" +
-      "body {width:100%;margin:30% 0;}" +
-      "</style>" +
-      "</head>" +
-      "<body>" +
-      "<div>" +
+      "<div id='a3s'>" +
       "<div><img src='https://www.ignitesearch.com.au/wp-content/uploads/2022/12/header.jpg'/></div>" +
       "<h1>You have a new entry for an Assessment</h1>" +
       "<h4>Assessment made by " +
@@ -416,8 +401,7 @@ function sendMsg(e) {
       "</h4>" +
       "<h2>Answers</h2>" +
       email_text +
-      "</div>" +
-      "</body></html>",
+      "</div>",
   }).then((message) => alert(message));
 
   $("#client-info").hide();
