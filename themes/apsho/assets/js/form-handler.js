@@ -390,7 +390,7 @@ function sendMsg(e) {
     To: email.value,
     From: "d.sutton@ignitesearch.com.au",
     Subject: "New PDPA Assessment",
-    Html:
+    Body:
       "<div id='a3s'>" +
       "<div><img src='https://www.ignitesearch.com.au/wp-content/uploads/2022/12/header.jpg'/></div>" +
       "<h1>You have a new entry for an Assessment</h1>" +
