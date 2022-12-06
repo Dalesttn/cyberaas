@@ -241,109 +241,109 @@ var email_text;
     email_text =
       "<h3 style='color:orange;'>Not Enough data to make the assessment</h3>" +
       "<ul>" +
-      "<li>Please reach out to us to verify if you are fully compliant with the PDPA..</li>" +
+      "<li style='font-size:18px;'>Please reach out to us to verify if you are fully compliant with the PDPA..</li>" +
       "</ul>";
 
     //1
     if (arrayEquals(selections, a)) {
       email_text =
-        "<h3 style='color:red;'>You are not compliant with the PDPA.</h3>" +
+        "<h3 style='color:#D92E8A;font-size:25px;'>You are not compliant with the PDPA.</h3>" +
         "<ul>" +
-        "<li><b>High risk</b> of data leakage and breaches as there is no personal data protection for your customers data at all.</li>" +
-        "<li><b>High impact.</b> When a data breach occurs, you will face regulatory action from the PDPC, and suffer financial and reputational damage.</li>" +
+        "<li style='font-size:18px;'><b>High risk</b> of data leakage and breaches as there is no personal data protection for your customers data at all.</li>" +
+        "<li style='font-size:18px;'><b>High impact.</b> When a data breach occurs, you will face regulatory action from the PDPC, and suffer financial and reputational damage.</li>" +
         "</ul>";
     }
     //2
     if (arrayEquals(selections, b)) {
       email_text =
-        "<h3 style='color:red;'>You are not compliant with the PDPA.</h3>" +
+        "<h3 style='color:#D92E8A;font-size:25px;'>You are not compliant with the PDPA.</h3>" +
         "<ul>" +
-        "<li><b>High risk</b> of data leakage and breaches as there is no personal data protection for your customers data at all.</li>" +
-        "<li><b>High impact.</b> When a data breach occurs, you will face regulatory action from the PDPC, and suffer financial and reputational damage.</li>" +
+        "<li style='font-size:18px;'><b>High risk</b> of data leakage and breaches as there is no personal data protection for your customers data at all.</li>" +
+        "<li style='font-size:18px;'><b>High impact.</b> When a data breach occurs, you will face regulatory action from the PDPC, and suffer financial and reputational damage.</li>" +
         "</ul>";
     }
     //3
     if (arrayEquals(selections, c)) {
       email_text =
-        "<h3 style='color:red;'>You are not compliant with the PDPA.</h3>" +
+        "<h3 style='color:#D92E8A;font-size:25px;'>You are not compliant with the PDPA.</h3>" +
         "<ul>" +
-        "<li><b>Medium Risk.</b> You have your basic cybersecurity hygiene covered, however, PDPA policies and processes are not in place and your staff are not educated in cyber awareness; humans are the weakest link.</li>" +
-        "<li><b>High impact.</b> When a data breach occurs, you will face regulatory action from the PDPC, and suffer financial and reputational damage.</li>" +
+        "<li style='font-size:18px;'><b>Medium Risk.</b> You have your basic cybersecurity hygiene covered, however, PDPA policies and processes are not in place and your staff are not educated in cyber awareness; humans are the weakest link.</li>" +
+        "<li style='font-size:18px;'><b>High impact.</b> When a data breach occurs, you will face regulatory action from the PDPC, and suffer financial and reputational damage.</li>" +
         "</ul>";
     }
     //4
     if (arrayEquals(selections, d)) {
       email_text =
-        "<h3 style='color:red;'>You are not compliant with the PDPA.</h3>" +
+        "<h3 style='color:#D92E8A;font-size:25px;'>You are not compliant with the PDPA.</h3>" +
         "<ul>" +
-        "<li><b>Medium Risk.</b> You have your basic cybersecurity hygiene covered, however, PDPA policies and processes are not in place and your staff are not educated in cyber awareness; humans are the weakest link.</li>" +
-        "<li><b>High impact.</b> When a data breach occurs, you will face regulatory action from the PDPC, and suffer financial and reputational damage.</li>" +
+        "<li style='font-size:18px;'><b>Medium Risk.</b> You have your basic cybersecurity hygiene covered, however, PDPA policies and processes are not in place and your staff are not educated in cyber awareness; humans are the weakest link.</li>" +
+        "<li style='font-size:18px;'><b>High impact.</b> When a data breach occurs, you will face regulatory action from the PDPC, and suffer financial and reputational damage.</li>" +
         "</ul>";
     }
     //5
     if (arrayEquals(selections, e)) {
       email_text =
-        "<h3 style='color:green;'>Your organisation and customers are safe.</h3>" +
+        "<h3 style='color:#D92E8A;font-size:25px;'>Your organisation and customers are safe.</h3>" +
         "<ul>" +
-        "<li>Please reach out to us to verify if you are fully compliant with the PDPA..</li>" +
+        "<li style='font-size:18px;'>Please reach out to us to verify if you are fully compliant with the PDPA..</li>" +
         "</ul>";
     }
     //6
     if (arrayEquals(selections, f)) {
       email_text =
-        "<h3 style='color:red;'>You are not compliant with the PDPA.</h3>" +
+        "<h3 style='color:red;font-size:25px;'>You are not compliant with the PDPA.</h3>" +
         "<ul>" +
-        "<li><b>High risk</b> of a malware attack as there is no data protection at all. You are walking 'naked'. </li>" +
-        "<li><b>High impact.</b>  The average downtime of a malware attack to SME is 7 days, provided if you have data backups. Your organisation is crippled as your day-to-day operations will be affected.</li>" +
+        "<li style='font-size:18px;'><b>High risk</b> of a malware attack as there is no data protection at all. You are walking 'naked'. </li>" +
+        "<li style='font-size:18px;'><b>High impact.</b>  The average downtime of a malware attack to SME is 7 days, provided if you have data backups. Your organisation is crippled as your day-to-day operations will be affected.</li>" +
         "</ul>";
     }
     //7
     if (arrayEquals(selections, g)) {
       email_text =
-        "<h3 style='color:red;'>You are not compliant with the PDPA.</h3>" +
+        "<h3 style='color:#D92E8A;font-size:25px;'>You are not compliant with the PDPA.</h3>" +
         "<ul>" +
-        "<li><b>High risk</b> of a malware attack as there is no data protection at all. You are walking 'naked'. </li>" +
-        "<li><b>High impact.</b>  The average downtime of a malware attack to SME is 7 days, provided if you have data backups. Your organisation is crippled as your day-to-day operations will be affected.</li>" +
+        "<li style='font-size:18px;'><b>High risk</b> of a malware attack as there is no data protection at all. You are walking 'naked'. </li>" +
+        "<li style='font-size:18px;'><b>High impact.</b>  The average downtime of a malware attack to SME is 7 days, provided if you have data backups. Your organisation is crippled as your day-to-day operations will be affected.</li>" +
         "</ul>";
     }
     //8
     if (arrayEquals(selections, h)) {
       email_text =
-        "<h3 style='color:red;'>You are not compliant with the PDPA.</h3>" +
+        "<h3 style='color:#D92E8A;font-size:25px;'>You are not compliant with the PDPA.</h3>" +
         "<ul>" +
-        "<li><b>Medium Risk.</b> You have your basic cybersecurity hygiene covered, however, PDPA policies and processes are not in place and your staff are not educated in cyber awareness; humans are the weakest link.</li>" +
-        "<li><b>High impact.</b> When a data breach occurs, you will face regulatory action from the PDPC, and suffer financial and reputational damage.</li>" +
+        "<li style='font-size:18px;'><b>Medium Risk.</b> You have your basic cybersecurity hygiene covered, however, PDPA policies and processes are not in place and your staff are not educated in cyber awareness; humans are the weakest link.</li>" +
+        "<li style='font-size:18px;'><b>High impact.</b> When a data breach occurs, you will face regulatory action from the PDPC, and suffer financial and reputational damage.</li>" +
         "</ul>";
     }
     //9
     if (arrayEquals(selections, j)) {
       email_text =
-        "<h3 style='color:red;'>You are not compliant with the PDPA.</h3>" +
+        "<h3 style='color:#D92E8A;font-size:25px;'>You are not compliant with the PDPA.</h3>" +
         "<ul>" +
-        "<li><b>Low risk and low impact.</b> You have your basic cybersecurity hygiene covered, however, your PDPA policies and processes are not in place. </li>" +
+        "<li style='font-size:18px;'><b>Low risk and low impact.</b> You have your basic cybersecurity hygiene covered, however, your PDPA policies and processes are not in place. </li>" +
         "</ul>";
     }
     //10
     if (arrayEquals(selections, k)) {
       email_text =
-        "<h3 style='color:green;'>Your organisation and customers are safe.</h3>" +
+        "<h3 style='color:#D92E8A;font-size:25px;'>Your organisation and customers are safe.</h3>" +
         "<ul>" +
-        "<li>Please reach out to us to verify if you are fully compliant with the PDPA..</li>" +
+        "<li style='font-size:18px;'>Please reach out to us to verify if you are fully compliant with the PDPA..</li>" +
         "</ul>";
     }
-
+    correct += "<h2 style='font-size:18px;'>Answers</h2>";
     for (var i = 0; i < selections.length; i++) {
-      correct +=
-        "<p>" +
+      correct +=       
+        "<div style='font-weight:800;font-size:18px;'>" +
         questions[i].question +
         "Answer: " +
         questions[i].choices[selections[i]] +
-        "</p>";
+        "</div>";
     }
 
     if (arrayEquals(selections, j)) {
       email_text =
-        "<h3 style='color:green;'>Your organisation and customers are safe.</h3>" +
+        "<h3 style='color:#D92E8A;font-size:25px;'>Your organisation and customers are safe.</h3>" +
         "<ul>" +
         "<li>Please reach out to us to verify if you are fully compliant with the PDPA..</li>" +
         "</ul>";
@@ -374,16 +374,18 @@ function sendMsg(e) {
     Body:
       "<div id='a3s'>" +
       "<div><img src='https://www.ignitesearch.com.au/wp-content/uploads/2022/12/header.jpg'/></div>" +
-      "<h1>You have a new entry for an Assessment</h1>" +
-      "<h4>Assessment made by " +
+      "<h1>Thank you for taking the Assessment. Here are your results ...</h1>" +
+      "<p style='font-size:19px;'>Assessment made by " +
       name.value +
       " " +
       email.value +
-      "</h4>" +
-      "<h2>Answers</h2>" +
+      "</p>" +
+      "<h2>Details:</h2>" +
       email_text +
+      correct +
       "</div>",
-  }).then((message) => alert(message));
+    }).then((message) => console.log(message));
+
 
   Email.send({
     SecureToken: "5d34dcfd-3bb5-47f0-999a-a72079a49458",
@@ -393,16 +395,17 @@ function sendMsg(e) {
     Body:
       "<div id='a3s'>" +
       "<div><img src='https://www.ignitesearch.com.au/wp-content/uploads/2022/12/header.jpg'/></div>" +
-      "<h1>You have a new entry for an Assessment</h1>" +
-      "<h4>Assessment made by " +
+      "<h1>Thank you for taking the Assessment. Here are your results ...</h1>" +
+      "<p style='font-size:19px;'>Assessment made by " +
       name.value +
       " " +
       email.value +
-      "</h4>" +
-      "<h2>Answers</h2>" +
+      "</p>" +
+      "<h2>Details:</h2>" +
       email_text +
+      correct +
       "</div>",
-  }).then((message) => alert(message));
+  }).then((message) => console.log(message));
 
   $("#client-info").hide();
   $("#thank-you").show();
