@@ -383,6 +383,10 @@ function sendMsg(e) {
       "<h2>Details:</h2>" +
       email_text +
       correct +
+      "<br><br>" +
+      "<div><a style='font-size:18px;text-decoration:none;background-color: #da2e8a;color: #fff;padding: 10px 20px;border-radius:5px;text-transform: uppercase;' href='"+ baseUrl +"/contact' class='btn btn-sm btn-violate'>" +
+      "Free Consult" +
+      "</a></div>" +
       "</div>",
     }).then((message) => console.log(message));
 
@@ -404,6 +408,10 @@ function sendMsg(e) {
       "<h2>Details:</h2>" +
       email_text +
       correct +
+      "<br><br>" +
+      "<div><a style='font-size:18px;text-decoration:none;background-color: #da2e8a;color: #fff;padding: 10px 20px;border-radius:5px;text-transform: uppercase;' href='"+ baseUrl +"/contact' class='btn btn-sm btn-violate'>" +
+      "Free Consult" +
+      "</a></div>" +
       "</div>",
   }).then((message) => console.log(message));
 
