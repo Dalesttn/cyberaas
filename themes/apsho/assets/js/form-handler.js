@@ -211,6 +211,7 @@ var email_text;
         var scoreElem = displayScore();
         quiz.append(scoreElem).fadeIn();
         $("#next").hide();
+        $("#question").hide();
         $("#prev").hide();
         $("#start").hide();
       }
@@ -219,6 +220,7 @@ var email_text;
 
   // Computes score and returns a paragraph element to be displayed
   function displayScore() {
+   
     score = $("<p>", { id: "question" });
 
     var numCorrect = 0;
@@ -353,6 +355,7 @@ var email_text;
     console.log(correct);
 
     $("#client-info").show();
+    
 
     return score;
   }
