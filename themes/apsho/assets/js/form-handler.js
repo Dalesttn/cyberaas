@@ -336,8 +336,9 @@ var email_text;
       correct +=       
         "<div style='font-weight:800;font-size:18px;'>" +
         questions[i].question +
-        "Answer: " +
+        "<br><span style='font-weight:300;'>Answer: " +
         questions[i].choices[selections[i]] +
+        "</span>" +
         "</div>";
     }
 
