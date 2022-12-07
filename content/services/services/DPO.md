@@ -1,6 +1,7 @@
 ---
 title: "DPO Data Protection Officer"
 cat: ["Services"]
+headline: "Organisations that cannot justify hiring a fulltime DPO can still benefit from the  expertise of our DPO service to ensure PDPA compliance.From $625 per year"
 summary: "Organisations that cannot justify hiring a fulltime DPO can still benefit from the  expertise of our DPO service to ensure PDPA compliance.From $625 per year"
 featureImage: images/services/keys.jpg
 color: "blue"

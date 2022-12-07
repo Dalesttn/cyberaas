@@ -1,7 +1,8 @@
 ---
 title: "IT Helpdesk Support"
 cat: ["Services"]
-summary: "Let our experts help you resolve day-to-day computer and printer issues, and manage your infrastructure and cloud services.From $40 per 30 minutes"
+headline: "Let our experts help you resolve day-to-day computer and printer issues, and manage your infrastructure and cloud services.From $40 per 30 minutes"
+summary: "Outsource IT Support and focus on your core business."
 featureImage: images/services/cellphone.jpg
 color: "blue"
 recommended: "Example1, Example2"

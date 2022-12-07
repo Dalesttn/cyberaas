@@ -2,7 +2,9 @@
 title: "PCI-DSS Payment Card Industry Data Security Standard"
 cat: ["Compliance"]
 weight: 4
-summary: "Any organisation that processes or stores credit card information must comply with the global PCI-DSS. "
+headline: "Any organisation that processes or stores credit card information must comply with the global PCI-DSS. "
+summary: "PCI-DSS - Comply with the global Payment Card Industry Data Security Standard
+ "
 featureImage: images/services/code.jpg
 color: "purple"
 recommended: "Example1, Example2"

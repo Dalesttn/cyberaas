@@ -2,7 +2,8 @@
 title: "MAS TRM Technology Risk Management"
 cat: ["Compliance"]
 weight: 3
-summary: "Financial technology companies need to follow the Guidelines on Risk Management Practices - Technology Risk published by MAS."
+headline: "Financial technology companies need to follow the Guidelines on Risk Management Practices - Technology Risk published by MAS."
+summary: "AS Technology Risk Management (TRM) for Financial Institutions in Singapore "
 featureImage: images/services/mac.jpg
 color: "purple"
 recommended: "Example1, Example2"

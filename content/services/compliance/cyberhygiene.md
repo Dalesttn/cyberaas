@@ -2,7 +2,8 @@
 title: "MAS Cyber Hygiene"
 cat: ["Compliance"]
 weight: 2
-summary: "Financial Services Industry (FSI) companies in Singapore must comply with guidelines and mandatory notices issued by the Monetary Authority of Singapore (MAS)."
+headline: "Financial Services Industry (FSI) companies in Singapore must comply with guidelines and mandatory notices issued by the Monetary Authority of Singapore (MAS)."
+summary: "If you operate in Singapore's Services Industry (FSI).Its vital that you comply with guidelines and mandatory notices issued by the Monetary Authority of Singapore (MAS)."
 featureImage: images/services/code2.jpg
 color: "purple"
 recommended: "Example1, Example2"

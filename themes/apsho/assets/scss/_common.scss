@@ -430,11 +430,12 @@ input[type="radio"] {
 } 
 
 .notify-link {
-  color:#da2e8a;
-  font-weight:800;
+  color:#fff;
+  font-weight:600;
   padding-left:10px;
-  text-decoration:underline;
+  text-decoration:none;
 }
 .notify-link:hover {
-  color:#8c8c94;
+  text-decoration:underline;
+  color:#fff;
 }

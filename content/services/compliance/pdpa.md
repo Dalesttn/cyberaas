@@ -2,6 +2,7 @@
 title: "PDPA Personal Data Protection Act"
 cat: ["Compliance"]
 weight: 1
+headline: "All organisations in Singapore must comply with the Personal Data Protection Act. This includes sole proprietorships, LLP partnerships, and not-for-profit organisations."
 summary: "All organisations in Singapore must comply with the Personal Data Protection Act. This includes sole proprietorships, LLP partnerships, and not-for-profit organisations."
 featureImage: images/services/girl.jpg
 color: "purple"

@@ -1,6 +1,8 @@
 ---
 title: "Email Phishing & Cyber Awareness Training"
 cat: ["Services"]
+headline: "Increase your staff’s cyber awareness through monthly email phishing campaigns and interactive bite-size online training. 
+$36 per user per year"
 summary: "Increase your staff’s cyber awareness through monthly email phishing campaigns and interactive bite-size online training. 
 $36 per user per year"
 featureImage: images/services/computer.jpg
