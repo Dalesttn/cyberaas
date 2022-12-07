@@ -462,6 +462,7 @@ function sendContact(e) {
       }).then((message) => console.log(message));
 
       $("#thank-you-2").show();
+      $("#thank-you-3").show();
       document.getElementById("chat_form").reset();
 }
 
