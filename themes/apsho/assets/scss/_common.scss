@@ -405,3 +405,25 @@ input[type="radio"] {
   font-size:16px;
   text-align:left;
 }
+
+.notify {
+  background-color: #1f305c;
+  color: #fff;
+  height: 40px;
+  width: 100%;
+  position: relative;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+} 
+
+.notify-link {
+  color:#da2e8a;
+  font-weight:800;
+  padding-left:10px;
+  text-decoration:underline;
+}
+.notify-link:hover {
+  color:#8c8c94;
+}
