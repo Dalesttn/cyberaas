@@ -438,10 +438,10 @@ function sendContact(e) {
       getUrl.protocol + "//" + getUrl.host + "/" + getUrl.pathname.split("/")[1];
     e.preventDefault();
 
-    const name = document.querySelector("#cname");
-    const email = document.querySelector("#cemail");
-    const phone = document.querySelector("#ctelephone");
-    const cmessage = document.querySelector("#cmessage");
+    const name = document.querySelector("#c2name");
+    const email = document.querySelector("#c2email");
+    const phone = document.querySelector("#c2telephone");
+    const cmessage = document.querySelector("#c2message");
 
     Email.send({
       SecureToken: "5d34dcfd-3bb5-47f0-999a-a72079a49458",
@@ -533,7 +533,7 @@ function sendContactPage(e) {
      "<br><b>Message:</b> <br>" + cmessage.value +
       "<br><br>" +
       "</div>",
-    }).then((message) => alert(message));
+    }).then((message) => console.log(message));
 
     $("#thank-you-2").show();
     document.getElementById("contact_page").reset();
