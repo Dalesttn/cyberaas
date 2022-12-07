@@ -19,20 +19,24 @@
       <div class="col-lg-4 order-2 order-lg-2 h-form">
         <div class="hero-form">
           <form
-            id="hero-form"
-            action="{{ .Site.Params.formspreeURL }}"
-            method="POST"
+            id="chat_form_services"
+            action="#"
             class="hero-form-action row"
+            method="POST"
           >
             <div class="col-lg-12">
-              <h2>Book this Service</h2>
+              <h2>Chat with us</h2>
+            </div>
+            <div id="thank-you-2" style="display:none;padding:3% 0;color:green;font-size:18px;">
+              Thank you for contacting us, we will be in touch shortly. <br>
             </div>
             <div class="col-lg-12">
               <input
                 type="text"
                 class="form-control"
                 placeholder="Full Name"
-                name="Name"
+                name="cname"
+                id="cname"
                 required
               />
             </div>
@@ -41,7 +45,18 @@
                 type="email"
                 class="form-control"
                 placeholder="Email"
-                name="email"
+                name="cemail"
+                id="cemail"
+                required
+              />
+            </div>
+            <div class="col-lg-12">
+              <input
+                type="tel"
+                class="form-control"
+                placeholder="Phone Number"
+                name="ctelephone"
+                id="ctelephone"
                 required
               />
             </div>
@@ -52,7 +67,8 @@
                 required
                 cols="30"
                 rows="7"
-                name="message"
+                name="cmessage"
+                id="cmessage"
               ></textarea>
             </div>
 

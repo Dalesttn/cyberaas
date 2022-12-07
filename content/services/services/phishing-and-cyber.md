@@ -1,18 +1,29 @@
 ---
-title: "Phishing & Cyber Awareness Training"
+title: "Email Phishing & Cyber Awareness Training"
 cat: ["Services"]
-summary: "Training is an essential element for developing a cyber-savvy work culture. Increase staff knowledge and cyber resilience to protect against a range of cyber hacks and crimes.  "
+summary: "Increase your staff’s cyber awareness through monthly email phishing campaigns and interactive bite-size online training. 
+$36 per user per year"
 featureImage: images/services/computer.jpg
 color: "blue"
 recommended: "Example1, Example2"
 implementation: "1-5 weeks"
 investment: "Starting at $8100"
 ---
+## Cyber Security Awareness Training 
 
-## Heading1
+Training is an essential element for developing a cyber-savvy work culture. Increase staff knowledge and cyber resilience to protect against a range of cyber hacks and crimes.  
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus vestibulum est ut nulla pellentesque, a tempus lorem bibendum. Suspendisse vehicula pretium tellus in luctus. Cras ut venenatis augue, eget malesuada ligula. Integer non dolor metus. Sed nec lobortis massa, quis ullamcorper nisi. In scelerisque sodales tellus eu fringilla. Nulla sodales ligula a sapien sollicitudin feugiat. Curabitur vitae sem ante. Pellentesque lacus risus, varius ac venenatis nec, mattis faucibus lectus. Duis convallis, ipsum non luctus consequat, quam sapien venenatis dui, vel placerat dolor nunc sed erat. Aliquam vel orci lobortis mi malesuada molestie et id enim. Pellentesque finibus pellentesque orci, eget condimentum mi scelerisque at.
 
-## Heading2
+Do you find it hard to engage employees in cyber awareness training because it seems too technical or confusing for most? Our bite-size videos make learning fun and effective to help you develop a more resilient cyber culture. [More]   
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus vestibulum est ut nulla pellentesque, a tempus lorem bibendum. Suspendisse vehicula pretium tellus in luctus. Cras ut venenatis augue, eget malesuada ligula. Integer non dolor metus. Sed nec lobortis massa, quis ullamcorper nisi. In scelerisque sodales tellus eu fringilla. Nulla sodales ligula a sapien sollicitudin feugiat. Curabitur vitae sem ante. Pellentesque lacus risus, varius ac venenatis nec, mattis faucibus lectus. Duis convallis, ipsum non luctus consequat, quam sapien venenatis dui, vel placerat dolor nunc sed erat. Aliquam vel orci lobortis
+**Benefits**. Free and paid custom Security Awareness Programs. Build cyber resilience,  increase cyber awareness to build organisational cyber resilience, reduce cyber risks, evidence cyber compliance, evolve cyber training and culture.
+
+**Services.** Train your staff and loved ones from being tricked by cyber criminals. Classroom-based and video-based training. Users can watch short and intuitive videos on a comprehensive list of scams (including common ones like ransomware and phishing).
+
+- Bite-size engaging video training.
+- Connect with social media to get regular tips for staying cyber savvy. 
+- Sign up in 30 seconds to administer a free video training suite for unlimited users.
+
+Or contact us for support on customised training with gamification and phishing simulation. All videos are SCORM and 508 Compliant with optional LMS integration.
+
+

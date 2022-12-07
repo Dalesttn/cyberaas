@@ -2,7 +2,7 @@
 title: "PDPA Personal Data Protection Act"
 cat: ["Compliance"]
 weight: 1
-summary: "The Personal Data Protection Act (PDPA) in Singapore specifies what businesses and organisations must do to handle their customer data properly to defend against cyber security breaches. "
+summary: "All organisations in Singapore must comply with the Personal Data Protection Act. This includes sole proprietorships, LLP partnerships, and not-for-profit organisations."
 featureImage: images/services/girl.jpg
 color: "purple"
 recommended: "Example1, Example2"
@@ -10,9 +10,7 @@ implementation: "1-5 weeks"
 investment: "Starting at $8100"
 ---
 
-## Heading1
-
-Conduct business responsibility in Singapore or other countries where PDPA guidelines apply. Achieve a baseline standard for the responsible collection, use, disclosure and protection of personal data.
+Conduct business responsibly in Singapore or other countries where PDPA guidelines apply. Achieve a baseline standard for the responsible collection, use, disclosure and protection of personal data.
 
 We have indepth knowledge of PDPA requirements to uphold cyber security in diverse industries including fintech, healthcare, executive recruitment, logistics, education, and real estate.
 

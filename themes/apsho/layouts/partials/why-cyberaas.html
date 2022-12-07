@@ -5,7 +5,8 @@
       <div class="col-lg-8 order-1 order-lg-1">
         <div class="whyCyber-content">
           <span class="cyber-content-subtitle"> {{ .caption }} </span>
-          <h1>What you get from Cyberaas? All the good stuff!</h1>
+          <h1>We help you achieve a business edge. Here’s all the good stuff!
+          </h1>
           <dl>
             <dd>- Clear explanations in layman terms.</dd>
             <dd>- Proactive service and cost-effective solutions.</dd>
@@ -32,56 +33,72 @@
       <div class="col-lg-3 order-2 order-lg-2 h-form">
         <div class="hero-image">
           <form
-            id="hero-form"
-            action="{{ .Site.Params.formspreeURL }}"
-            method="POST"
-            class="hero-form-action row"
-          >
-            <div class="col-lg-12">
-              <h2>Speak to a consultant</h2>
-            </div>
-            <div class="col-lg-12">
-              <input
-                type="text"
-                class="form-control"
-                placeholder="Full Name"
-                name="Name"
-                required
-              />
-            </div>
-            <div class="col-lg-12">
-              <input
-                type="email"
-                class="form-control"
-                placeholder="Email"
-                name="email"
-                required
-              />
-            </div>
-            <div class="col-12">
-              <textarea
-                class="form-control"
-                placeholder="Message"
-                required
-                cols="30"
-                rows="7"
-                name="message"
-              ></textarea>
-            </div>
+          id="chat_form"
+          action="#"
+          class="hero-form-action row"
+          method="POST"
+        >
+          <div class="col-lg-12">
+            <h2>Chat with us</h2>
+          </div>
+          <div id="thank-you-2" style="display:none;padding:3% 0;color:green;font-size:18px;">
+            Thank you for contacting us, we will be in touch shortly. <br>
+          </div>
+          <div class="col-lg-12">
+            <input
+              type="text"
+              class="form-control"
+              placeholder="Full Name"
+              name="cname"
+              id="cname"
+              required
+            />
+          </div>
+          <div class="col-lg-12">
+            <input
+              type="email"
+              class="form-control"
+              placeholder="Email"
+              name="cemail"
+              id="cemail"
+              required
+            />
+          </div>
+          <div class="col-lg-12">
+            <input
+              type="tel"
+              class="form-control"
+              placeholder="Phone Number"
+              name="ctelephone"
+              id="ctelephone"
+              required
+            />
+          </div>
+          <div class="col-12">
+            <textarea
+              class="form-control"
+              placeholder="Message"
+              required
+              cols="30"
+              rows="7"
+              name="cmessage"
+              id="cmessage"
+            ></textarea>
+          </div>
 
-            <div class="col-12 text-right">
-              <button
-                id="contact-form-button"
-                class="btn btn-primary-filled"
-                type="submit"
-              >
-                Submit
-              </button>
-            </div>
-            <div class="col-12">
-              <p id="contact-form-status" class="mt-3"></p>
-            </div>
-          </form>
+          <div class="col-12 text-right">
+            <button
+              id="contact-form-button"
+              class="btn btn-primary-filled"
+              type="submit"
+            >
+              Submit
+            </button>
+          </div>
+          <div class="col-12">
+            <p id="contact-form-status" class="mt-3"></p>
+          </div>
+        </form>
         </div>
       </div>
     </div>

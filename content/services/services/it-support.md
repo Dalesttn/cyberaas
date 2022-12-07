@@ -1,7 +1,7 @@
 ---
-title: "IT Support"
+title: "IT Helpdesk Support"
 cat: ["Services"]
-summary: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+summary: "Let our experts help you resolve day-to-day computer and printer issues, and manage your infrastructure and cloud services.From $40 per 30 minutes"
 featureImage: images/services/cellphone.jpg
 color: "blue"
 recommended: "Example1, Example2"
@@ -9,10 +9,18 @@ implementation: "1-5 weeks"
 investment: "Starting at $8100"
 ---
 
-## Heading1
+### Establish an organised approach to responding to employee and client queries and resolving any IT issues that get in the way of work performance.  
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus vestibulum est ut nulla pellentesque, a tempus lorem bibendum. Suspendisse vehicula pretium tellus in luctus. Cras ut venenatis augue, eget malesuada ligula. Integer non dolor metus. Sed nec lobortis massa, quis ullamcorper nisi. In scelerisque sodales tellus eu fringilla. Nulla sodales ligula a sapien sollicitudin feugiat. Curabitur vitae sem ante. Pellentesque lacus risus, varius ac venenatis nec, mattis faucibus lectus. Duis convallis, ipsum non luctus consequat, quam sapien venenatis dui, vel placerat dolor nunc sed erat. Aliquam vel orci lobortis mi malesuada molestie et id enim. Pellentesque finibus pellentesque orci, eget condimentum mi scelerisque at.
 
-## Heading2
+- Proactive maintenance of healthy and robust IT systems. 
+- Less downtime, and better productivity. 
+- Expert IT advice tailored to your organisational needs.  
+- Improve the security of your IT network, while creating better customer and employee experiences. 
+- Streamline customer support workflows and minimise repetitive workloads. 
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus vestibulum est ut nulla pellentesque, a tempus lorem bibendum. Suspendisse vehicula pretium tellus in luctus. Cras ut venenatis augue, eget malesuada ligula. Integer non dolor metus. Sed nec lobortis massa, quis ullamcorper nisi. In scelerisque sodales tellus eu fringilla. Nulla sodales ligula a sapien sollicitudin feugiat. Curabitur vitae sem ante. Pellentesque lacus risus, varius ac venenatis nec, mattis faucibus lectus. Duis convallis, ipsum non luctus consequat, quam sapien venenatis dui, vel placerat dolor nunc sed erat. Aliquam vel orci lobortis
+IT Support essentials and tiered responses:
+- Quickly pre-empt or identify IT issues for fast resolution response.
+- Testing and diagnosis to resolve deeper IT issues.
+- Onsite visit for any issues not resolved in previous steps.
+
+

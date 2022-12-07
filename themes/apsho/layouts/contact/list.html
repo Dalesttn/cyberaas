@@ -12,8 +12,8 @@
     <div class="row">
       <div class="col-lg-8 mx-auto">
         <form
-          id="contact-form"
-          action="{{ .Site.Params.formspreeURL }}"
+          id="contact_page"
+          action="#"
           method="POST"
           class="contact-form row"
         >
@@ -23,12 +23,16 @@
           >
             <h2>Send us a message</h2>
           </div>
+          <div id="thank-you-2" style="display:none;padding:3% 0;color:green;font-size:18px;">
+            Thank you for contacting us, we will be in touch shortly. <br>
+          </div>
           <div class="col-lg-6">
             <input
               type="text"
               class="form-control"
               placeholder="Full Name"
               name="Name"
+              id="coname"
               required
             />
           </div>
@@ -38,6 +42,7 @@
               class="form-control"
               placeholder="Email"
               name="email"
+              id="coemail"
               required
             />
           </div>
@@ -47,6 +52,7 @@
               class="form-control"
               placeholder="Work phone number"
               name="work-phone"
+              id="cophone"
               required
             />
           </div>
@@ -56,6 +62,7 @@
               class="form-control"
               placeholder="Business Name"
               name="business"
+              id="cobusiness"
               required
             />
           </div>
@@ -65,6 +72,7 @@
               class="form-control"
               placeholder="Business Website"
               name="website"
+              id="cowebsite"
             />
           </div>
           <div class="col-12">
@@ -75,6 +83,7 @@
               cols="30"
               rows="7"
               name="message"
+              id="comessage"
             ></textarea>
           </div>
           <div class="col-3"></div>

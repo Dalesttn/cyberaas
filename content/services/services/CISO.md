@@ -1,7 +1,8 @@
 ---
 title: "CISO Chief Information Security Officer"
 cat: ["Services"]
-summary: "Let our experienced CISO provide the executive leadership to ensure robust top down information security. You get sought-after expertise when you need it."
+summary: "
+Our cost-effective CISO on-demand service brings the cyber security expertise, leadership, and skills to help define, plan and execute a bespoke strategy.From $265 per hour"
 featureImage: images/services/secure.jpg
 color: "blue"
 recommended: "Example1, Example2"
@@ -9,10 +10,8 @@ implementation: "1-5 weeks"
 investment: "Starting at $8100"
 ---
 
-## Heading1
+Let our experienced CISO provide the executive leadership to ensure robust top down information security. You get sought-after expertise when you need it.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus vestibulum est ut nulla pellentesque, a tempus lorem bibendum. Suspendisse vehicula pretium tellus in luctus. Cras ut venenatis augue, eget malesuada ligula. Integer non dolor metus. Sed nec lobortis massa, quis ullamcorper nisi. In scelerisque sodales tellus eu fringilla. Nulla sodales ligula a sapien sollicitudin feugiat. Curabitur vitae sem ante. Pellentesque lacus risus, varius ac venenatis nec, mattis faucibus lectus. Duis convallis, ipsum non luctus consequat, quam sapien venenatis dui, vel placerat dolor nunc sed erat. Aliquam vel orci lobortis mi malesuada molestie et id enim. Pellentesque finibus pellentesque orci, eget condimentum mi scelerisque at.
+Benefits. High-level technology and business expertise on demand. Rich calibre and diversity of experience and industry knowhow that’s cost effective. Executive-level advisory input and insights. Without the HR hassles of a high salary outlay or employee turnover.  
 
-## Heading2
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus vestibulum est ut nulla pellentesque, a tempus lorem bibendum. Suspendisse vehicula pretium tellus in luctus. Cras ut venenatis augue, eget malesuada ligula. Integer non dolor metus. Sed nec lobortis massa, quis ullamcorper nisi. In scelerisque sodales tellus eu fringilla. Nulla sodales ligula a sapien sollicitudin feugiat. Curabitur vitae sem ante. Pellentesque lacus risus, varius ac venenatis nec, mattis faucibus lectus. Duis convallis, ipsum non luctus consequat, quam sapien venenatis dui, vel placerat dolor nunc sed erat. Aliquam vel orci lobortis
+Services. On-demand technology leadership (virtual and in person) to ensure that security investments are business led. Includes identifying security gaps, planning,  implementing, monitoring and maintaining security controls and improving cyber resilience.

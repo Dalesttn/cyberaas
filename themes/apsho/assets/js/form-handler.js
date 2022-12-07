@@ -432,5 +432,130 @@ function arrayEquals(a, b) {
   );
 }
 
+function sendContact(e) {
+    var getUrl = window.location;
+    var baseUrl =
+      getUrl.protocol + "//" + getUrl.host + "/" + getUrl.pathname.split("/")[1];
+    e.preventDefault();
+
+    const name = document.querySelector("#cname");
+    const email = document.querySelector("#cemail");
+    const phone = document.querySelector("#ctelephone");
+    const cmessage = document.querySelector("#cmessage");
+
+    Email.send({
+      SecureToken: "5d34dcfd-3bb5-47f0-999a-a72079a49458",
+      To: "online@ignitesearch.com.au",
+      From: "d.sutton@ignitesearch.com.au",
+      Subject: "New Contact Entry",
+      Body:
+        "<div id='a3s'>" +
+        "<div><img src='https://www.ignitesearch.com.au/wp-content/uploads/2022/12/header.jpg'/></div>" +
+        "<h1>New Chat with us Entry from the Website</h1>" +
+        "<h2>Details:</h2>" +
+       "<b>Name:</b> " + name.value +
+       "<br><b>Email:</b> " + email.value +
+       "<br><b>Phone Number:</b> " + phone.value +
+       "<br><b>Message:</b> <br>" + cmessage.value +
+        "<br><br>" +
+        "</div>",
+      }).then((message) => console.log(message));
+
+      $("#thank-you-2").show();
+      document.getElementById("chat_form").reset();
+}
+
+function sendContactServices(e) {
+
+
+  var getUrl = window.location;
+  var baseUrl =
+    getUrl.protocol + "//" + getUrl.host + "/" + getUrl.pathname.split("/")[1];
+  e.preventDefault();
+
+  const name = document.querySelector("#cname");
+  const email = document.querySelector("#cemail");
+  const phone = document.querySelector("#ctelephone");
+  const cmessage = document.querySelector("#cmessage");
+
+  Email.send({
+    SecureToken: "5d34dcfd-3bb5-47f0-999a-a72079a49458",
+    To: "online@ignitesearch.com.au",
+    From: "d.sutton@ignitesearch.com.au",
+    Subject: "New Contact Entry",
+    Body:
+      "<div id='a3s'>" +
+      "<div><img src='https://www.ignitesearch.com.au/wp-content/uploads/2022/12/header.jpg'/></div>" +
+      "<h1>New Contact Entry from the Website</h1>" +
+      "<h2>Details:</h2>" +
+     "<b>Name:</b> " + name.value +
+     "<br><b>Email:</b> " + email.value +
+     "<br><b>Phone Number:</b> " + phone.value +
+     "<br><b>Message:</b> <br>" + cmessage.value +
+      "<br><br>" +
+      "</div>",
+    }).then((message) => console.log(message));
+
+    $("#thank-you-2").show();
+    document.getElementById("chat_form_services").reset();
+}
+
+function sendContactPage(e) {
+
+  var getUrl = window.location;
+  var baseUrl =
+    getUrl.protocol + "//" + getUrl.host + "/" + getUrl.pathname.split("/")[1];
+  e.preventDefault();
+
+  const name = document.querySelector("#coname");
+  const email = document.querySelector("#coemail");
+  const phone = document.querySelector("#cophone");
+  const business_name = document.querySelector("#cobusiness");
+  const website = document.querySelector("#cowebsite");
+  const cmessage = document.querySelector("#comessage");
+
+  Email.send({
+    SecureToken: "5d34dcfd-3bb5-47f0-999a-a72079a49458",
+    To: "online@ignitesearch.com.au",
+    From: "d.sutton@ignitesearch.com.au",
+    Subject: "New Contact Entry from Contact us",
+    Body:
+      "<div id='a3s'>" +
+      "<div><img src='https://www.ignitesearch.com.au/wp-content/uploads/2022/12/header.jpg'/></div>" +
+      "<h1>New Contact Entry from the Website</h1>" +
+      "<h2>Details:</h2>" +
+     "<b>Name:</b> " + name.value +
+     "<br><b>Email:</b> " + email.value +
+     "<br><b>Phone Number:</b> " + phone.value +
+     "<br><b>Business Name:</b> " + business_name.value +
+     "<br><b>Website:</b> " + website.value +
+     "<br><b>Message:</b> <br>" + cmessage.value +
+      "<br><br>" +
+      "</div>",
+    }).then((message) => alert(message));
+
+    $("#thank-you-2").show();
+    document.getElementById("contact_page").reset();
+}
+
+
+
+const form2 = document.querySelector("#chat_form");
+if(form2 != null) {
+  form2.addEventListener("submit", sendContact);
+}
+
+const form3 = document.querySelector("#chat_form_services");
+if (form3 != null) {
+  form3.addEventListener("submit", sendContactServices);
+}
+
+  const form4 = document.querySelector("#contact_page");
+  if (form4 != null) {
+   form4.addEventListener("submit", sendContactPage);
+  }
+
 const form = document.querySelector("#contact_form");
-form.addEventListener("submit", sendMsg);
+if (form != null) {
+  form.addEventListener("submit", sendMsg);
+}

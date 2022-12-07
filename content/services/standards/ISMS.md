@@ -1,7 +1,7 @@
 ---
 title: "ISO 27001 Information Security Management System"
 cat: ["Standards"]
-summary: "We help your financial services business put habitual practices in place to ensure your data and networks are secure. Our solutions are affordable for price-conscious SMEs, and help you achieve effective ROIs. "
+summary: "ISO 27001 compliance can open up new opportunities in global markets. It allows you to compete with international competitors. In some countries, this is a major entry requirement."
 featureImage: images/services/mac.jpg
 color: "pink"
 recommended: "Example1, Example2"

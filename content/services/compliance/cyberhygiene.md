@@ -2,7 +2,7 @@
 title: "MAS Cyber Hygiene"
 cat: ["Compliance"]
 weight: 2
-summary: "If you operate in Singapore’s Financial Services Industry (FSI), it’s vital that you comply with guidelines and mandatory notices issued by the Monetary Authority of Singapore (MAS). "
+summary: "Financial Services Industry (FSI) companies in Singapore must comply with guidelines and mandatory notices issued by the Monetary Authority of Singapore (MAS)."
 featureImage: images/services/code2.jpg
 color: "purple"
 recommended: "Example1, Example2"
@@ -10,7 +10,7 @@ implementation: "1-5 weeks"
 investment: "Starting at $8100"
 ---
 
-We help your financial services business put habitual practices in place to ensure your data and networks are secure. Our solutions are affordable for price-conscious SMEs, and help you achieve effective ROIs.
+We help your financial services business put habitual practices in place to ensure your data and networks are secure. Our solutions are affordable for price-conscious SMEs, and help you achieve effective ROIs. 
 
 ## Why/How can Cyberaas help?
 

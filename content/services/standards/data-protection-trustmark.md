@@ -1,7 +1,7 @@
 ---
 title: "Data Protection Trustmark"
 cat: ["Standards"]
-summary: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+summary: "This visible sign of data protection assurance builds trust with customers and stakeholders, and gives organisations a competitive edge as a preferred service provider."
 featureImage: images/services/code2.jpg
 color: "pink"
 recommended: "Example1, Example2"
