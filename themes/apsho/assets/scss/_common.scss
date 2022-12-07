@@ -399,6 +399,17 @@ input[type="radio"] {
 
     justify-content: center;
   }
+  .notify {
+    display:flex;
+    flex-direction: column;
+    height:120px !important;
+  }
+  .headroom {
+    position: fixed;
+    top: 114px;
+    left: 0;
+    right: 0;
+}
 }
 
 #accred-text {
