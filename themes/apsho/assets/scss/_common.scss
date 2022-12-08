@@ -409,7 +409,24 @@ input[type="radio"] {
     top: 114px;
     left: 0;
     right: 0;
-}
+  }
+  .accreditations {
+    position: absolute;
+    top: 30%;
+    left: 0%;
+    height: 600px;
+    width: 100%;
+  }
+
+  .justin {
+    width:100%;
+    padding-bottom:15px;
+  }
+
+  .values {
+    padding-top: 50px;
+    margin: 0 0%;
+  }
 }
 
 #accred-text {
