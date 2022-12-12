@@ -1,11 +1,11 @@
 ---
 title: "Welcome to our new Cyberaas website!"
-date: 2020-09-01T12:57:56+06:00
+date: 2022-12-01T12:57:56+06:00
 featureImage: images/blog/justin.jpeg
 author: Justin Ooi
 authorThumb: images/client/client-2.png
 excerpt: Please browse around, and if you would like to learn more, drop us a line!
-tags: ["Cyber Security", "Websites"]
+tags: [ "Websites"]
 categories: ["Cyberaas", "General"]
 archive: ["December 2022"]
 type: "blog"
