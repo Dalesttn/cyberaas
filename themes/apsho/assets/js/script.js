@@ -123,3 +123,5 @@ $(window).on("scroll", function () {
     $("nav").removeClass("nav-bg");
   }
 });
+
+

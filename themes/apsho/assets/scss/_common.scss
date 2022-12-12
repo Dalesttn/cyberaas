@@ -379,6 +379,18 @@ input[type="radio"] {
   height: 100px;
 }
 
+@media (max-width:900px)  {
+  .theservice {
+    display:none !important;
+  }
+}
+
+@media (min-width:900px)  {
+  .mobile {
+    display:none !important;
+  }
+}
+
 @media (max-width:480px)  {
   .popup {
     margin: 70px auto;
@@ -427,6 +439,16 @@ input[type="radio"] {
     padding-top: 50px;
     margin: 0 0%;
   }
+  .testimonial-slider {
+    height:200px !important;
+  }
+  ul {
+    padding: 0px !important;
+    list-style-position: inside !important; 
+  }
+  .about .about-info {
+    padding-right: 3% !important;
+}
 }
 
 #accred-text {
@@ -463,4 +485,26 @@ input[type="radio"] {
 
 .contact:hover {
   text-decoration: none;
+}
+
+.btn-secondary {
+  color: #000 !important;
+  background-color: #fff !important; 
+  border:none !important; 
+  font-size:16px;
+  text-transform:uppercase;
+}
+
+.btn-secondary:hover {
+  color: #000;
+  background-color: #fff; 
+  border:none; 
+}
+
+.dropdown-menu {
+  text-align: center;
+}
+
+.btn-secondary:not(:disabled):not(.disabled).active:focus, .btn-secondary:not(:disabled):not(.disabled):active:focus, .show>.btn-secondary.dropdown-toggle:focus {
+  box-shadow: none !important;
 }

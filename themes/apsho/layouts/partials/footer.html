@@ -11,6 +11,27 @@
           </div>
         </div>
       </div>
+      <div class="col-lg-3 col-md-4">
+        <div class="footer-widget">
+          <h4>Contact</h4>
+          {{ $address := .Site.Params.address }}
+          <div class="footer-widget-list">
+            <ul>
+              <li>
+                <a href="mailto:{{ $address.email }}"
+                  ><i class="ti-email"></i>{{ $address.email }}</a
+                >
+              </li>
+              <li>
+                <p>
+                  <i class="ti-pin"></i>{{ $address.address1 }}<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{{
+                  $address.address2 }}<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{{ $address.address3 }}
+                </p>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
       <div class="col-lg-2 col-md-4">
         <div class="footer-widget">
           <h4>Links</h4>
@@ -49,27 +70,6 @@
                 </div>
               </form>
             </div>
-          </div>
-        </div>
-      </div>
-      <div class="col-lg-3 col-md-4">
-        <div class="footer-widget">
-          <h4>Contact</h4>
-          {{ $address := .Site.Params.address }}
-          <div class="footer-widget-list">
-            <ul>
-              <li>
-                <a href="mailto:{{ $address.email }}"
-                  ><i class="ti-email"></i>{{ $address.email }}</a
-                >
-              </li>
-              <li>
-                <p>
-                  <i class="ti-pin"></i>{{ $address.address1 }}<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{{
-                  $address.address2 }}<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{{ $address.address3 }}
-                </p>
-              </li>
-            </ul>
           </div>
         </div>
       </div>

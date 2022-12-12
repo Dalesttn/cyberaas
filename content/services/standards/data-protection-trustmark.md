@@ -11,10 +11,18 @@ investment: "Starting at $8100"
 cost: ""
 ---
 
-## Heading1
+Organisations who volunteer to undertake DPTM accreditation make a commitment to comply with a set of robust and comprehensive criteria that demonstrate sound data protection policies and practices.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus vestibulum est ut nulla pellentesque, a tempus lorem bibendum. Suspendisse vehicula pretium tellus in luctus. Cras ut venenatis augue, eget malesuada ligula. Integer non dolor metus. Sed nec lobortis massa, quis ullamcorper nisi. In scelerisque sodales tellus eu fringilla. Nulla sodales ligula a sapien sollicitudin feugiat. Curabitur vitae sem ante. Pellentesque lacus risus, varius ac venenatis nec, mattis faucibus lectus. Duis convallis, ipsum non luctus consequat, quam sapien venenatis dui, vel placerat dolor nunc sed erat. Aliquam vel orci lobortis mi malesuada molestie et id enim. Pellentesque finibus pellentesque orci, eget condimentum mi scelerisque at.
+### Benefits
+- **Increase trustworthiness** - By adopting sound data protection practices.
+- **Increase accountability**  - To customers, business partners and the regulator.
+- **Reduce penalisation risk**  - May mitigate enforcement action against a data breach.  
 
-## Heading2
+Cyberaas helps organisations work towards and achieve DPTM criteria such as:
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus vestibulum est ut nulla pellentesque, a tempus lorem bibendum. Suspendisse vehicula pretium tellus in luctus. Cras ut venenatis augue, eget malesuada ligula. Integer non dolor metus. Sed nec lobortis massa, quis ullamcorper nisi. In scelerisque sodales tellus eu fringilla. Nulla sodales ligula a sapien sollicitudin feugiat. Curabitur vitae sem ante. Pellentesque lacus risus, varius ac venenatis nec, mattis faucibus lectus. Duis convallis, ipsum non luctus consequat, quam sapien venenatis dui, vel placerat dolor nunc sed erat. Aliquam vel orci lobortis
+- Appoint and train Data Protection Officer and staff to handle personal data;
+- Map processes and create systems for reasonable collection, use and disclosure of data with consent obtained and purpose made known;
+- Plan and implement appropriate measures for protection, retention and disposal of data;
+- Provide processes and documents to respond to customers who want to withdraw consent, and access and correction of data; and
+- Map out appropriate measures to take in the event of data breach.
+
