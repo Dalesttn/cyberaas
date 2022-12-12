@@ -480,9 +480,9 @@ function sendContactServices(e) {
   const cmessage = document.querySelector("#cmessage");
 
   Email.send({
-    SecureToken: "5d34dcfd-3bb5-47f0-999a-a72079a49458",
+    SecureToken: "f973352e-5cc7-42a2-a752-e709f692356e",
     To: "online@ignitesearch.com.au",
-    From: "d.sutton@ignitesearch.com.au",
+    From: "info@cyberaas.com",
     Subject: "New Contact Entry",
     Body:
       "<div id='a3s'>" +
@@ -495,7 +495,7 @@ function sendContactServices(e) {
      "<br><b>Message:</b> <br>" + cmessage.value +
       "<br><br>" +
       "</div>",
-    }).then((message) => console.log(message));
+    }).then((message) => alert(message));
 
     $("#thank-you-2").show();
     document.getElementById("chat_form_services").reset();
