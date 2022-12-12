@@ -4,7 +4,7 @@ cat: ["Services"]
 headline: "Increase your staff’s cyber awareness through monthly email phishing campaigns and interactive bite-size online training."
 summary: "Increase your staff’s cyber awareness through monthly email phishing campaigns and interactive bite-size online training. 
 $36 per user per year"
-featureImage: images/services/computer.jpg
+featureImage: images/services/card.jpg
 color: "blue"
 recommended: "Example1, Example2"
 implementation: "1-5 weeks"

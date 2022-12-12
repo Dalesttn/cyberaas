@@ -19,3 +19,5 @@ Please browse around, and if you would like to learn more, drop us a line!
 
 From Justin Ooi
 Director of Cyberaas.io
+
+![blog image](/images/blog/justin.jpeg)
