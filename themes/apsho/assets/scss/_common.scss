@@ -441,7 +441,10 @@ input[type="radio"] {
     margin: 0 0%;
   }
   .testimonial-slider {
-    height:200px !important;
+    height:220px !important;
+  }
+  .slick-slide {
+    height:220px;
   }
   ul {
     padding: 0px 25px !important;
@@ -449,6 +452,9 @@ input[type="radio"] {
   }
   .about .about-info {
     padding-right: 3% !important;
+}
+.info-box {
+  height: 533px !important;
 }
 }
 
@@ -510,3 +516,7 @@ input[type="radio"] {
 .btn-secondary:not(:disabled):not(.disabled).active:focus, .btn-secondary:not(:disabled):not(.disabled):active:focus, .show>.btn-secondary.dropdown-toggle:focus {
   box-shadow: none !important;
 }
+
+// #thank-you-2, #thank-you, #thank-you-3, #thank-you-4 {
+//   padding-top:30px;
+// }
