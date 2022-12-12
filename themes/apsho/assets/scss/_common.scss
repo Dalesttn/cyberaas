@@ -450,6 +450,8 @@ input[type="radio"] {
     padding: 0px 25px !important;
     // list-style-position: inside !important; 
   }
+
+
   .about .about-info {
     padding-right: 3% !important;
 }
@@ -520,3 +522,7 @@ input[type="radio"] {
 // #thank-you-2, #thank-you, #thank-you-3, #thank-you-4 {
 //   padding-top:30px;
 // }
+
+ul.quiz-radio {
+  list-style-type: none !important;
+}
