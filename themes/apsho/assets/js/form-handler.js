@@ -539,6 +539,36 @@ function sendContactPage(e) {
     document.getElementById("contact_page").reset();
 }
 
+function subscribe(e) {
+
+  var getUrl = window.location;
+  var baseUrl =
+    getUrl.protocol + "//" + getUrl.host + "/" + getUrl.pathname.split("/")[1];
+  e.preventDefault();
+
+
+  const email = document.querySelector("#semail");
+
+
+  Email.send({
+    SecureToken: "5d34dcfd-3bb5-47f0-999a-a72079a49458",
+    To: "online@ignitesearch.com.au",
+    From: "d.sutton@ignitesearch.com.au",
+    Subject: "New email Subscription",
+    Body:
+      "<div id='a3s'>" +
+      "<div><img src='https://www.ignitesearch.com.au/wp-content/uploads/2022/12/header.jpg'/></div>" +
+      "<h1>New Email Subscription</h1>" +
+      "<h2>Details:</h2>" +
+     "<br><b>Email:</b> " + email.value +
+      "<br><br>" +
+      "</div>",
+    }).then((message) => alert(message));
+
+    $("#thank-you-4").show();
+    document.getElementById("subscribe_form").reset();
+}
+
 
 
 const form2 = document.querySelector("#chat_form");
@@ -559,4 +589,9 @@ if (form3 != null) {
 const form = document.querySelector("#contact_form");
 if (form != null) {
   form.addEventListener("submit", sendMsg);
+}
+
+const form5 = document.querySelector("#subscribe_form");
+if (form5 != null) {
+  form5.addEventListener("submit", subscribe);
 }

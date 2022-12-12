@@ -350,6 +350,7 @@ dl {
 
 .black-dd {
   color: #622f89 !important;
+  text-align:left;
 }
 
 .quiz-radio li {
@@ -443,8 +444,8 @@ input[type="radio"] {
     height:200px !important;
   }
   ul {
-    padding: 0px !important;
-    list-style-position: inside !important; 
+    padding: 0px 25px !important;
+    // list-style-position: inside !important; 
   }
   .about .about-info {
     padding-right: 3% !important;
