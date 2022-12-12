@@ -9,6 +9,7 @@ color: "purple"
 recommended: "Example1, Example2"
 implementation: "1-5 weeks"
 investment: "Starting at $8100"
+cost: ""
 ---
 
 Conduct business responsibly in Singapore or other countries where PDPA guidelines apply. Achieve a baseline standard for the responsible collection, use, disclosure and protection of personal data.

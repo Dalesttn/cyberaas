@@ -44,7 +44,7 @@ theme = "apsho"
 [params.address]
 address = "23 Khan Niketon, Grand Street, NYK."
 email = "apsho@example.com"
-phone = "+(448) 833 5272 332"
+phone = ""
 
 # Footer Social
 [params.social]

@@ -1,13 +1,14 @@
 ---
 title: "CISO Chief Information Security Officer"
 cat: ["Services"]
-headline: "Our cost-effective CISO on-demand service brings the cyber security expertise, leadership, and skills to help define, plan and execute a bespoke strategy.From $265 per hour"
-summary: "Our cost-effective CISO on-demand service brings the cyber security expertise, leadership, and skills to help define, plan and execute a bespoke strategy.From $265 per hour"
+headline: "Our cost-effective CISO on-demand service brings the cyber security expertise, leadership, and skills to help define, plan and execute a bespoke strategy."
+summary: "Our cost-effective CISO on-demand service brings the cyber security expertise, leadership, and skills to help define, plan and execute a bespoke strategy"
 featureImage: images/services/secure.jpg
 color: "blue"
 recommended: "Example1, Example2"
 implementation: "1-5 weeks"
 investment: "Starting at $8100"
+cost: "From $265 per hour"
 ---
 
 Let our experienced CISO provide the executive leadership to ensure robust top down information security. You get sought-after expertise when you need it.

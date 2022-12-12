@@ -10,6 +10,7 @@ color: "purple"
 recommended: "Example1, Example2"
 implementation: "1-5 weeks"
 investment: "Starting at $8100"
+cost: ""
 ---
 
 If you take payments from credit cards in the course of conducting your business, you must ensure transactions are completed securely with data protection in mind.

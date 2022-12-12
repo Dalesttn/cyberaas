@@ -9,6 +9,7 @@ color: "purple"
 recommended: "Example1, Example2"
 implementation: "1-5 weeks"
 investment: "Starting at $8100"
+cost: ""
 ---
 
 We help your financial services business put habitual practices in place to ensure your data and networks are secure. Our solutions are affordable for price-conscious SMEs, and help you achieve effective ROIs. 

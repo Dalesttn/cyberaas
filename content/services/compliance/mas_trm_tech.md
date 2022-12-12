@@ -9,6 +9,7 @@ color: "purple"
 recommended: "Example1, Example2"
 implementation: "1-5 weeks"
 investment: "Starting at $8100"
+cost: ""
 ---
 
 Abide by these comprehensive guidelines for managing technology risks to improve cyber governance and reduce risk. These are legal requirements for financial institutions in Singapore.

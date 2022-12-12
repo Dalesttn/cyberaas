@@ -8,6 +8,7 @@ color: "pink"
 recommended: "Example1, Example2"
 implementation: "1-5 weeks"
 investment: "Starting at $8100"
+cost: ""
 ---
 
 Show your organisation’s commitment to meeting global standards for information security management.

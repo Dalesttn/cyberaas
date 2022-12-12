@@ -1,7 +1,7 @@
 <footer class="footer">
   <div class="container">
     <div class="row">
-      <div class="col-lg-4 col-md-4">
+      <div class="col-lg-3 col-md-4">
         <div class="footer-description">
           <img src="{{ .Site.Params.logo | absURL }}" alt="logo" />
           <div class="footer-widget-list">
@@ -52,17 +52,12 @@
           </div>
         </div>
       </div>
-      <div class="col-lg-2 col-md-4">
+      <div class="col-lg-3 col-md-4">
         <div class="footer-widget">
           <h4>Contact</h4>
           {{ $address := .Site.Params.address }}
           <div class="footer-widget-list">
             <ul>
-              <li>
-                <a href="tel:{{ $address.phone }}"
-                  ><i class="ti-mobile"></i>{{ $address.phone }}</a
-                >
-              </li>
               <li>
                 <a href="mailto:{{ $address.email }}"
                   ><i class="ti-email"></i>{{ $address.email }}</a
@@ -70,8 +65,8 @@
               </li>
               <li>
                 <p>
-                  <i class="ti-pin"></i>{{ $address.address1 }}<br />{{
-                  $address.address2 }}<br />{{ $address.address3 }}
+                  <i class="ti-pin"></i>{{ $address.address1 }}<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{{
+                  $address.address2 }}<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{{ $address.address3 }}
                 </p>
               </li>
             </ul>
